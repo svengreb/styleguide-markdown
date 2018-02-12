@@ -1,0 +1,29 @@
+{
+  "name": "styleguide-markdown",
+  "title": "Styleguide Markdown",
+  "version": "0.0.0",
+  "description": "The Arctic Ice Studio Markdown Code Style.",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "url": "http://arcticicestudio.com"
+  },
+  "homepage": "https://arcticicestudio.github.io/styleguide-markdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticicestudio/styleguide-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/styleguide-markdown/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "styleguide",
+    "markdown",
+    "codestyle",
+    "remark",
+    "config",
+    "preset"
+  ],
+  "private": true
+}
