@@ -6,7 +6,7 @@
 
 <p align="center"><img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/npm/v/remark-preset-lint-arcticicestudio.svg?style=flat-square&label=remark-preset-lint-arcticicestudio"/></a></p>
 
-<p align="center"><a href="https://arcticicestudio.github.io/styleguide-markdown"><img src="https://img.shields.io/badge/Docs----5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog----5E81AC.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://arcticicestudio.github.io/styleguide-markdown"><img src="https://img.shields.io/badge/Docs-0.1.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md#010"><img src="https://img.shields.io/badge/Changelog-0.1.0-5E81AC.svg?style=flat-square"/></a></p>
 
 <p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/styleguide-markdown"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/styleguide-markdown/develop.svg?style=flat-square"/></a></p>
 
