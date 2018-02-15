@@ -1,0 +1,43 @@
+Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide) and other large style guides like [Atlassian Design][atlassian-design], [Google's DocGuide][google-docguide-gh], the [Google Developer Documentation Style Guide][google-developer-doc-style-guide] and the [Markdown Style Guide][markdown_style_guide-ciro_santilli] by Ciro Santilli.
+
+If you use this style guide in your project, you can include these badges in the documentation to let other developer know that the code adheres to this style.
+
+![Markdown Style Guide Badge][badge-styleguide-markdown]
+
+```md
+[![Markdown Style Guide](https://cdn.rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography-badge.svg)
+```
+
+![Code Style Badge][badge-styleguide-code-style]
+
+```md
+[![Markdown Style Guide](https://cdn.rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-badge-code-style.svg)
+```
+
+![Markdown Style Guide Badge Version][badge-shield-code-style-version]
+
+```md
+![Markdown Style Guide](https://img.shields.io/badge/Markdown_Style_Guide-0.1.0-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D)
+```
+
+![Code Style Badge][badge-shield-code-style]
+
+```md
+![Markdown Style Guide](https://img.shields.io/badge/%20-Code_Style-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D)
+```
+
+![Code Style Badge Color Inverted][badge-shield-code-style-inverted]
+
+```md
+![Markdown Style Guide](https://img.shields.io/badge/%20-Code_Style-2E3440.svg?style=flat-square&colorA=ffffff&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMi41IiBoZWlnaHQ9IjMyLjUiIHZpZXdCb3g9IjAgMCAzMi41IDMyLjUiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJFMzQ0MCIgc3Ryb2tlLXdpZHRoPSIuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNLjI1LjI1aDMydjMyaC0zMnoiLz48cGF0aCBmaWxsPSIjMkUzNDQwIiBkPSJNMTcuNDMzIDIyLjQwNWw1Ljg3Mi0xMS45OGguNTY2bDUuODczIDExLjk4aC0uNDk2bC01LjY1OS0xMS41NTYtNS42NjEgMTEuNTU2aC0uNDk1em0tMi42OTYgMGwtMTEuOTgtNS44NzN2LS41NjZsMTEuOTgtNS44NzJ2LjQ5NUwzLjE4MSAxNi4yNWwxMS41NTYgNS42NnYuNDk1eiIvPjwvc3ZnPg%3D%3D)
+```
+
+[atlassian-design]: https://atlassian.design
+[badge-shield-code-style]: https://img.shields.io/badge/%20-Code_Style-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D
+[badge-shield-code-style-inverted]: https://img.shields.io/badge/%20-Code_Style-2E3440.svg?style=flat-square&colorA=ffffff&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMi41IiBoZWlnaHQ9IjMyLjUiIHZpZXdCb3g9IjAgMCAzMi41IDMyLjUiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJFMzQ0MCIgc3Ryb2tlLXdpZHRoPSIuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNLjI1LjI1aDMydjMyaC0zMnoiLz48cGF0aCBmaWxsPSIjMkUzNDQwIiBkPSJNMTcuNDMzIDIyLjQwNWw1Ljg3Mi0xMS45OGguNTY2bDUuODczIDExLjk4aC0uNDk2bC01LjY1OS0xMS41NTYtNS42NjEgMTEuNTU2aC0uNDk1em0tMi42OTYgMGwtMTEuOTgtNS44NzN2LS41NjZsMTEuOTgtNS44NzJ2LjQ5NUwzLjE4MSAxNi4yNWwxMS41NTYgNS42NnYuNDk1eiIvPjwvc3ZnPg%3D%3D
+[badge-shield-code-style-version]: https://img.shields.io/badge/Markdown_Style_Guide-0.1.0-88C0D0.svg?style=flat-square&colorA=2E3440&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D
+[badge-styleguide-code-style]: https://cdn.rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-badge-code-style.svg
+[badge-styleguide-markdown]: https://cdn.rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography-badge.svg
+[google-docguide-gh]: https://github.com/google/styleguide/blob/gh-pages/docguide
+[google-developer-doc-style-guide]: https://developers.google.com/style/
+[markdown_style_guide-ciro_santilli]: http://www.cirosantilli.com/markdown-style-guide

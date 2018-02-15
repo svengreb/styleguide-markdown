@@ -1,0 +1,20 @@
+{
+  "gitbook": "3.2.3",
+  "title": "Styleguide Markdown",
+  "description": "The Arctic Ice Studio Markdown Code Style.",
+  "author": "Arctic Ice Studio",
+  "plugins": ["anchorjs", "github", "toggle-chapters", "toggle-headers", "-sharing"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/arcticicestudio/styleguide-markdown"
+    },
+    "lunr": {
+      "maxIndexSize": 1000000000
+    },
+    "theme-default": {
+      "styles": {
+        "website": "./styles/website.css"
+      }
+    }
+  }
+}
