@@ -51,7 +51,7 @@ What actually happens?
 
 Provide a [MCVE - The Minimal, Complete, and Verifiable Example](https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CONTRIBUTING.md#mcve)
 
-**This is a optional section, but it can drastically increase the speed at which this issue can be processed since it takes away the time-consuming reconstruction to reproduce the enhancement or bug.**
+Note that **this is a optional section, but it can drastically increase the speed at which this issue can be processed since it takes away the time-consuming reconstruction to reproduce the enhancement or bug.**
 
 The recommened way is to upload it as [Gist](https://gist.github.com) or new repository to GitHub, but of course you can [attach it to this issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), use any free file hosting service or paste the code in [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) into this issue.
 
@@ -70,7 +70,7 @@ If possible please provide more context by answering these questions:
 
 ## Stack Trace and Error Messages
 
-```
+```raw
 Paste the full stack trace, error messages or the logfile here ...
 ```
 

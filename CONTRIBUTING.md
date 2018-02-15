@@ -10,7 +10,7 @@ As for everything else in the project, the contributions to Styleguide Markdown 
 
 ## Getting Started
 
-Styleguide Markdown is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into Styleguide Markdown itself by [submitting a pull request](#pull-requests).
+Styleguide Markdown is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](#documentations), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into Styleguide Markdown itself by [submitting a pull request](#pull-requests).
 
 The project development workflow and process uses [GitHub Issues][gh-issues]- and [Pull Requests][gh-pr] management to track issues and pull requests.
 
@@ -113,7 +113,7 @@ A well-crafted Git commit message is the best way to communicate *context* about
 
 Styleguide Markdown adheres to the [Arctic Ice Studio Git Style Guide][styleguide-git-github].
 
-[![][styleguide-git-badge]][styleguide-git-github]
+[![Arctic Ice Studio Git Style Guide Badge][styleguide-git-badge]][styleguide-git-github]
 
 The style guide assumes that you are familiar with the [gitflow][gitflow] branching model.
 
