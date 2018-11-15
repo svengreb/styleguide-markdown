@@ -1,6 +1,6 @@
 ## Unordered Marker
 
-Use asterisk `*` marker.
+Use dashes `-` marker.
 
 > remark-lint: [unordered-list-marker-style][remark-lint-unordered-list-marker-style]
 
@@ -9,9 +9,9 @@ Use asterisk `*` marker.
 ⇣ **Incorrect** code for this rule:
 
 ```markdown
-- Winter
-- Snow
-- Frost
+* Winter
+* Snow
+* Frost
 ````
 
 ```markdown
@@ -23,9 +23,9 @@ Use asterisk `*` marker.
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* Winter
-* Snow
-* Frost
+- Winter
+- Snow
+- Frost
 ````
 
 ## Ordered Marker
