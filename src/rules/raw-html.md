@@ -36,6 +36,7 @@ Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide
 ````
 
 No way to define the size:
+
 ```markdown
 Sparkling ![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png) snowflakes falling down in the winter!
 ````

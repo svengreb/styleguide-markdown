@@ -8,7 +8,6 @@
 
 <p align="center">The Arctic Ice Studio Markdown Code Style.</p>
 
-
 # 0.1.0
 
 ![Release Date: 2018-02-15](https://img.shields.io/badge/Release_Date-2018--02--15-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/styleguide-markdown/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/styleguide-markdown/milestone/1)

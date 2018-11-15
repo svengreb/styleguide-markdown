@@ -2,9 +2,9 @@
 
 Use double quotes `""` for strings:
 
-* **Double quotes can be used for inline HTML**.
-* **Consistency to other style guides**. Double quotes are used by many code styles like e.g. [Java][styleguide-java-ghio] and [JavaScript][styleguide-javascript-ghio].
-* **Parallelism to the natural language**. Double quotes are used to identify a passage of quoted text. When using single quotes, the reader may misinterpret it as a contraction. The other meaning of a passage of text surrounded by the `'` indicates the *colloquial* meaning. It makes sense to stay consistent with pre-existing languages, and this may likely ease the learning and interpretation of code.
+- **Double quotes can be used for inline HTML**.
+- **Consistency to other style guides**. Double quotes are used by many code styles like e.g. [Java][styleguide-java-ghio] and [JavaScript][styleguide-javascript-ghio].
+- **Parallelism to the natural language**. Double quotes are used to identify a passage of quoted text. When using single quotes, the reader may misinterpret it as a contraction. The other meaning of a passage of text surrounded by the `'` indicates the *colloquial* meaning. It makes sense to stay consistent with pre-existing languages, and this may likely ease the learning and interpretation of code.
 
 > remark-lint: [link-title-style][remark-lint-link-title-style]
 

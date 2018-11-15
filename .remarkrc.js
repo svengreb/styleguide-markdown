@@ -13,5 +13,9 @@
  */
 
 module.exports = {
-  plugins: ["remark-preset-lint-arcticicestudio"]
+  plugins: [
+    "remark-preset-lint-arcticicestudio",
+    /* Disabled to supress warnings about duplicate "Example" headings. */
+    ["remark-lint-no-duplicate-headings", false]
+  ]
 };
