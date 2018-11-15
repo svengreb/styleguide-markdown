@@ -38,6 +38,6 @@
     "del-cli": "1.1.0",
     "gitbook-cli": "2.3.2",
     "remark-cli": "5.0.0",
-    "remark-preset-lint-arcticicestudio": "0.1.0"
+    "remark-preset-lint-arcticicestudio": "0.2.0"
   }
 }
