@@ -34,9 +34,9 @@ Use continuous numerating marker for ordered list items. This increases the read
 
 The only disadvantage is that references break when a new list item is added. This problem can be reduced by
 
-* using an unordered list until the final structure and layout has been determined.
-* keeping references close to the list so authors are less likely to forget to update them.
-* always specify an specific version of the markdown file when referring from an external document.
+- using an unordered list until the final structure and layout has been determined.
+- keeping references close to the list so authors are less likely to forget to update them.
+- always specify an specific version of the markdown file when referring from an external document.
 
 > remark-lint: [ordered-list-marker-style][remark-lint-ordered-list-marker-style] and [ordered-list-marker-value][remark-lint-ordered-list-marker-value]
 

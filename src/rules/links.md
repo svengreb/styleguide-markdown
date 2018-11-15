@@ -5,9 +5,9 @@ Always use [reference links][gfm-spec-links-ref] instead of [inline](#inline) li
 There are three kinds of reference links: full, collapsed, and shortcut.
 This can be one of the three reference link types:
 
-* [full][gfm-spec-links-ref_full]
-* [collapsed][gfm-spec-links-ref_collapsed]
-* [short][gfm-spec-links-ref_short]
+- [full][gfm-spec-links-ref_full]
+- [collapsed][gfm-spec-links-ref_collapsed]
+- [short][gfm-spec-links-ref_short]
 
 ###### Examples
 

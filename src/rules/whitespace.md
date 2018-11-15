@@ -70,7 +70,7 @@ Many snowflakes are falling down.¬
 
 ###### References
 
-* [Wikipedia: _Control Character_][wikipedia-control_character]
+- [Wikipedia: _Control Character_][wikipedia-control_character]
 
 ## Before Blocks
 
@@ -127,9 +127,9 @@ Other style guides suggest to use line breaks after the character limit has been
 
 Instead of enforcing a maximum line length, users should use [soft line wrapping][wikipedia-line_wrap]:
 
-* **Soft wrapping allows line lengths to visually adjust automatically with adjustments to the width of the user's window** or margin settings - This is a standard feature of all modern text editors like [Atom][atom-doc-soft_wrap] or [VSCode][vscode-doc-soft_wrap], IDEs like [JetBrains IntelliJ IDEA][jetbrains-intellij-doc-soft_wrap], word processors, and email clients like [Thunderbird][thunderbird].
-* **Using hard wrap inserts actual line breaks in the text at wrap points causing the Markdown to not look like the rendered output** - With soft wrapping the actual text is still on the same line but will be rendered by the application like it's divided into several lines. This **increases the readability** significantly and leads to the same visual result as if a maximum line length with hard line breaks for flowing text would have been used.
-* **Less writer effort** - The author can focus on the content instead of formatting.
+- **Soft wrapping allows line lengths to visually adjust automatically with adjustments to the width of the user's window** or margin settings - This is a standard feature of all modern text editors like [Atom][atom-doc-soft_wrap] or [VSCode][vscode-doc-soft_wrap], IDEs like [JetBrains IntelliJ IDEA][jetbrains-intellij-doc-soft_wrap], word processors, and email clients like [Thunderbird][thunderbird].
+- **Using hard wrap inserts actual line breaks in the text at wrap points causing the Markdown to not look like the rendered output** - With soft wrapping the actual text is still on the same line but will be rendered by the application like it's divided into several lines. This **increases the readability** significantly and leads to the same visual result as if a maximum line length with hard line breaks for flowing text would have been used.
+- **Less writer effort** - The author can focus on the content instead of formatting.
 
 Note that the [rule for long strings][strings-line_length] is related to this rule, and should not be broken up.
 
