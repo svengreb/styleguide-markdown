@@ -187,7 +187,7 @@ Thanks for the inspirations and attributions to GitHub's [Open Source Guides](ht
 [ref-rubyonrails-contributing]: http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html
 [semver]: http://semver.org
 [stackoverflow-mcve]: https://stackoverflow.com/help/mcve
-[styleguide-git-badge]: https://rawgit.com/arcticicestudio/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg
+[styleguide-git-badge]: https://raw.githubusercontent.com/arcticicestudio/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg?sanitize=true
 [styleguide-git-github]: https://github.com/arcticicestudio/styleguide-git
 [sscce]: http://sscce.org
 [template-issue]: https://github.com/arcticicestudio/styleguide-markdown/blob/develop/.github/ISSUE_TEMPLATE.md
