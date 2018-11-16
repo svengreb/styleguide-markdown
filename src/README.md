@@ -1,10 +1,10 @@
-<p align="center"><img src="https://rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography.svg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography.svg?sanitize=true"/></p>
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square"/></a></p>
 
-<p align="center"><img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/npm/v/remark-preset-lint-arcticicestudio.svg?style=flat-square&label=remark-preset-lint-arcticicestudio"/></a></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg?sanitize=true" width=24 height=24/> <a href="https://www.npmjs.com/package/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/npm/v/remark-preset-lint-arcticicestudio.svg?style=flat-square&label=remark-preset-lint-arcticicestudio"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md#010"><img src="https://img.shields.io/badge/Changelog-0.1.0-5E81AC.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md#010"><img src="https://img.shields.io/badge/Changelog-0.2.0-5E81AC.svg?style=flat-square"/></a></p>
 
 <p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/styleguide-markdown"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/styleguide-markdown/develop.svg?style=flat-square"/></a></p>
 
@@ -12,7 +12,7 @@
 
 ---
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography-badge.svg" width="40%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography-badge.svg?sanitize=true" width="40%" /></p>
 
 Every major open source project has its own style guide, a set of standards and conventions for the writing and design of code, documentations and assets. It is much easier to understand a large codebase when all the code in it is in a consistent style.
 
@@ -32,7 +32,7 @@ Read the [contributing guide][dev-contributing] to learn about the development p
 
 The guide also includes information about [minimal, complete, and verifiable examples][dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][dev-contributing-other-feedback].
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2018-present Arctic Ice Studio & Sven Greb</p>
 
