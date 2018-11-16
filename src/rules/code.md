@@ -206,16 +206,16 @@ export default Snow;
 
 [Inline code spans](#inline) on the other hand should be used to highlight e.g.
 
-* **executables** - `gcc`, `npm`, `go`, `python`
-* **paths** - `/etc/hosts`, `src/main/java/com/arcticicestudio/icecore/hashids/Hashids.java`
-* **version numbers** - `0.2.0`, `1.8.6-frost.2`
-* **code e.g. reserved keywords, builtins and operators** - `this`, `true`/`false`, `String`, `=>`
+- **executables** - `gcc`, `npm`, `go`, `python`
+- **paths** - `/etc/hosts`, `src/main/java/com/arcticicestudio/icecore/hashids/Hashids.java`
+- **version numbers** - `0.2.0`, `1.8.6-frost.2`
+- **code e.g. reserved keywords, builtins and operators** - `this`, `true`/`false`, `String`, `=>`
 
 Don't use it for
 
-* **project or proper names** - e.g [React][react], [GCC][gcc], [Node.js][nodejs], [Golang][golang] or [Rust][rustlang]
-* **libraries** - e.g. [libgit2][], [libc][crates-libc] (Rust Bindings), [glibc][], [glib2][] or [jackson-databind][bintray-jackson-databind] (Java)
-* **packages and modules** - e.g. [react-dom][npm-react-dom], [snowsaw][pypi-snowsaw] or [archlinux-keyring][archlinux-keyring]
+- **project or proper names** - e.g [React][react], [GCC][gcc], [Node.js][nodejs], [Golang][golang] or [Rust][rustlang]
+- **libraries** - e.g. [libgit2][], [libc][crates-libc] (Rust Bindings), [glibc][], [glib2][] or [jackson-databind][bintray-jackson-databind] (Java)
+- **packages and modules** - e.g. [react-dom][npm-react-dom], [snowsaw][pypi-snowsaw] or [archlinux-keyring][archlinux-keyring]
 
 [archlinux-keyring]: https://www.archlinux.org/packages/core/any/archlinux-keyring
 [bintray-jackson-databind]: https://bintray.com/bintray/jcenter/com.fasterxml.jackson.core%3Ajackson-databind

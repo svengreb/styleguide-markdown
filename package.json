@@ -1,7 +1,7 @@
 {
   "name": "styleguide-markdown",
   "title": "Styleguide Markdown",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The Arctic Ice Studio Markdown Code Style.",
   "author": {
     "name": "Arctic Ice Studio",
@@ -30,7 +30,7 @@
     "clean": "del build",
     "docs:build": "gitbook install src && gitbook build src build/docs",
     "docs:dev": "npm run docs:build && gitbook serve src build/docs",
-    "lint:md": "remark --no-stdout ./*.md src/ .github/",
+    "lint:md": "remark --no-stdout . src/ .github/",
     "lint": "npm run lint:md",
     "prepublishOnly": "npm run lint"
   },
@@ -38,6 +38,6 @@
     "del-cli": "1.1.0",
     "gitbook-cli": "2.3.2",
     "remark-cli": "5.0.0",
-    "remark-preset-lint-arcticicestudio": "0.1.0"
+    "remark-preset-lint-arcticicestudio": "0.2.0"
   }
 }
