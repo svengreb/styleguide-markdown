@@ -126,7 +126,7 @@
 - [Changelog](development/changelog.md)
   - [0.1.0](development/changelog.md#010)
   - [0.2.0](development/changelog.md#020)
-* [Code of Conduct](development/code-of-conduct.md)
+- [Code of Conduct](development/code-of-conduct.md)
   - [What we believe in and how we act](development/code-of-conduct.md#what-we-believe-in-and-how-we-act)
   - [Unacceptable Behavior](development/code-of-conduct.md#unacceptable-behavior)
   - [Responsibilities](development/code-of-conduct.md#responsibilities)
