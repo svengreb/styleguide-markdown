@@ -48,6 +48,6 @@ cake dessert icing donut."
 "Cupcake ipsum candy pudding soufflé chocolate. Croissant muffin biscuit brownie caramels pudding toffee pie. Tiramisu cookie ice cream cake dessert icing donut."
 ```
 
-[remark-lint-link-title-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-link-title-style
+[remark-lint-link-title-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-link-title-style
 [styleguide-java-ghio]: https://arcticicestudio.github.io/styleguide-java
 [styleguide-javascript-ghio]: https://arcticicestudio.github.io/styleguide-javascript

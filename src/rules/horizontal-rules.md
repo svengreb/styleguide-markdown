@@ -98,4 +98,4 @@ Sparkling and frozen...
 
 Horizontal rules can be used to separate sections when headers are not applicable or to separate base document elements like a header, body and footer.
 
-[remark-lint-rule-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-rule-style
+[remark-lint-rule-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-rule-style

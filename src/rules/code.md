@@ -231,8 +231,8 @@ Don't use it for
 [npm-react-dom]: https://www.npmjs.com/package/react-dom
 [pypi-snowsaw]: https://pypi.python.org/pypi/snowsaw
 [react]: https://reactjs.org
-[remark-lint-code-block-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-code-block-style
-[remark-lint-fenced-code-flag]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-fenced-code-flag
-[remark-lint-fenced-code-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-fenced-code-marker
-[remark-lint-no-shell-dollars]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-shell-dollars
+[remark-lint-code-block-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-code-block-style
+[remark-lint-fenced-code-flag]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-fenced-code-flag
+[remark-lint-fenced-code-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-fenced-code-marker
+[remark-lint-no-shell-dollars]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-shell-dollars
 [rustlang]: https://www.rust-lang.org

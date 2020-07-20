@@ -145,7 +145,7 @@ __Snow__
 ````
 
 [gfm-spec-strikethrough]: https://github.github.com/gfm/#strikethrough-extension-
-[remark-lint-emphasis-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker
-[remark-lint-no-emphasis-as-heading]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-emphasis-as-heading
-[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding
-[remark-lint-strong-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-strong-marker
+[remark-lint-emphasis-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-emphasis-marker
+[remark-lint-no-emphasis-as-heading]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-emphasis-as-heading
+[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-inline-padding
+[remark-lint-strong-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strong-marker
