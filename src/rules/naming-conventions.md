@@ -55,8 +55,8 @@ snow-fall.md
 ````
 
 [gfm]: https://github.github.com/gfm
-[remark-lint-file-extension]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-file-extension
-[remark-lint-no-file-name-mixed-case]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-file-name-mixed-case
+[remark-lint-file-extension]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-file-extension
+[remark-lint-no-file-name-mixed-case]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-file-name-mixed-case
 [stackoverflow-11273282]: https://stackoverflow.com/questions/11273282/whats-the-name-for-hyphen-separated-case/12273101
 [wikipedia-letter_case-special_styles]: https://en.wikipedia.org/wiki/Letter_case#Special_case_styles
 [wikipedia-snake_case]: https://en.wikipedia.org/wiki/Snake_case

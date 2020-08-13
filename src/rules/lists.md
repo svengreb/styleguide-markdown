@@ -412,11 +412,11 @@ Use `x` for ticked checkboxes and a single space ` ` for non ticked checkboxes.
 * [x] Frost
 ```
 
-[remark-lint-checkbox-character-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-checkbox-character-style
-[remark-lint-list-item-bullet-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-bullet-indent
-[remark-lint-list-item-content-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-content-indent
-[remark-lint-list-item-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-indent
-[remark-lint-list-item-spacing]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-spacing
-[remark-lint-ordered-list-marker-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-style
-[remark-lint-ordered-list-marker-value]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-value
-[remark-lint-unordered-list-marker-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style
+[remark-lint-checkbox-character-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-checkbox-character-style
+[remark-lint-list-item-bullet-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-list-item-bullet-indent
+[remark-lint-list-item-content-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-list-item-content-indent
+[remark-lint-list-item-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-list-item-indent
+[remark-lint-list-item-spacing]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-list-item-spacing
+[remark-lint-ordered-list-marker-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-ordered-list-marker-style
+[remark-lint-ordered-list-marker-value]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-ordered-list-marker-value
+[remark-lint-unordered-list-marker-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-unordered-list-marker-style

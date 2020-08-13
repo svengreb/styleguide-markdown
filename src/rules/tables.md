@@ -289,7 +289,7 @@ Note: The `·` character represents a whitespace.
 [lists]: lists.md
 [links-inline]: links.md#inline
 
-[remark-lint-no-table-indentation]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-table-indentation
-[remark-lint-table-cell-padding]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-cell-padding
-[remark-lint-table-pipe-alignment]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-pipe-alignment
-[remark-lint-table-pipes]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-pipes
+[remark-lint-no-table-indentation]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-table-indentation
+[remark-lint-table-cell-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-table-cell-padding
+[remark-lint-table-pipe-alignment]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-table-pipe-alignment
+[remark-lint-table-pipes]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-table-pipes

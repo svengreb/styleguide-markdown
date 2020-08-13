@@ -245,12 +245,12 @@ Sparkling and frozen.
 ```
 
 [atx]: http://www.aaronsw.com/2002/atx/intro
-[remark-lint-heading-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-heading-style
-[remark-lint-maximum-heading-length]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-heading-length
-[remark-lint-no-duplicate-headings]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings
-[remark-lint-no-duplicate-headings-in-section]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section
-[remark-lint-no-heading-content-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent
-[remark-lint-no-heading-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-indent
-[remark-lint-no-heading-punctuation]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-punctuation
+[remark-lint-heading-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-heading-style
+[remark-lint-maximum-heading-length]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-heading-length
+[remark-lint-no-duplicate-headings]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-headings
+[remark-lint-no-duplicate-headings-in-section]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-headings-in-section
+[remark-lint-no-heading-content-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-content-indent
+[remark-lint-no-heading-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-indent
+[remark-lint-no-heading-punctuation]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-punctuation
 [setex]: http://docutils.sourceforge.net/mirror/setext.html
 [wikipedia-title_case]: https://en.wikipedia.org/wiki/Letter_case#Title_case

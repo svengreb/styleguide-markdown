@@ -56,5 +56,5 @@ arctic foxes, and grizzly bears.
 > arctic foxes, and grizzly bears.
 ```
 
-[remark-lint-blockquote-indentation]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-blockquote-indentation
-[remark-lint-no-blockquote-without-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-blockquote-without-marker
+[remark-lint-blockquote-indentation]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-blockquote-indentation
+[remark-lint-no-blockquote-without-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-blockquote-without-marker
