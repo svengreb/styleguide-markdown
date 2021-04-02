@@ -1,13 +1,8 @@
 {
   "name": "styleguide-markdown",
-  "title": "Styleguide Markdown",
   "version": "0.2.0",
-  "description": "The Arctic Ice Studio Markdown Code Style.",
-  "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "http://arcticicestudio.com"
-  },
+  "description": "Arctic Ice Studio Markdown code style",
+  "author": "Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)",
   "homepage": "https://arcticicestudio.github.io/styleguide-markdown",
   "repository": {
     "type": "git",
@@ -25,7 +20,9 @@
     "config",
     "preset"
   ],
-  "private": true,
+  "workspaces": [
+    "packages/@arcticicestudio/*"
+  ],
   "scripts": {
     "clean": "del build",
     "docs:build": "gitbook install src && gitbook build src build/docs",
