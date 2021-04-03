@@ -75,7 +75,7 @@
     "remark-lint-no-heading-punctuation": "^1.0.1",
     "remark-lint-no-html": "^1.0.1",
     "remark-lint-no-inline-padding": "^1.0.1",
-    "remark-lint-no-literal-urls": "^1.0.1",
+    "remark-lint-no-literal-urls": "^2.0.1",
     "remark-lint-no-missing-blank-lines": "^1.0.1",
     "remark-lint-no-multiple-toplevel-headings": "^1.0.1",
     "remark-lint-no-paragraph-content-indent": "^1.0.3",
