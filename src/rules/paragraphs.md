@@ -10,6 +10,8 @@ Note: The `·` character represents a whitespace.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ·The winter has sparkling and frozen elements!
 ·Many snowflakes are falling down.
@@ -19,6 +21,8 @@ Note: The `·` character represents a whitespace.
 ······The winter has sparkling and frozen elements!
 ········Many snowflakes are falling down.
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 

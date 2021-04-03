@@ -1,10 +1,15 @@
-# Configuration for the GitHub feature to automatically request reviews from the code owners when a pull request changes any owned files.
+# Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the LICENSE file.
+
+# Configuration for the GitHub feature to automatically request reviews from the code owners when a pull request
+# changes any owned files.
 #
 # References:
-#   https://github.com/blog/2392-introducing-code-owners
-#   https://help.github.com/articles/about-codeowners
+#   1. https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+#   2. https://github.com/blog/2392-introducing-code-owners
 
 # +--------------------+
 # + Default Code Owner +
 # +--------------------+
-* @arcticicestudio
+* @arcticicestudio @svengreb

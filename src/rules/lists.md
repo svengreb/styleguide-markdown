@@ -1,6 +1,6 @@
 ## Unordered Marker
 
-Use dashes `-` marker.
+Use dashes `-` as marker.
 
 > remark-lint: [unordered-list-marker-style][remark-lint-unordered-list-marker-style]
 
@@ -8,17 +8,21 @@ Use dashes `-` marker.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 * Winter
 * Snow
 * Frost
-````
+```
 
 ```markdown
 + Winter
 + Snow
 + Frost
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -26,7 +30,7 @@ Use dashes `-` marker.
 - Winter
 - Snow
 - Frost
-````
+```
 
 ## Ordered Marker
 
@@ -44,35 +48,39 @@ The only disadvantage is that references break when a new list item is added. Th
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 1. Winter
 1. Snow
   1.1 Snowflakes
 1. Frost
-````
+```
 
 ```markdown
 1) Winter
 1) Snow
   1.1) Snowflakes
 1) Frost
-````
+```
 
 ```markdown
 1) Winter
 2) Snow
   2.1) Snowflakes
 3) Frost
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 1. Winter
 2. Snow
-  2.1 Snowflakes
+   2.1 Snowflakes
 3. Frost
-````
+```
 
 ## No Content Before
 
@@ -86,12 +94,14 @@ Note: The `·` character represents a whitespace character.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-x* Winter
- * Snow
-  .* Snowflakes
-"* Frost
-·* Frost
+x- Winter
+ - Snow
+  .- Snowflakes
+"- Frost
+·- Frost
 ```
 
 ```markdown
@@ -102,19 +112,21 @@ x1. Winter
 ·3. Frost
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* Winter
-* Snow
-  * Snowflakes
-* Frost
+- Winter
+- Snow
+  - Snowflakes
+- Frost
 ```
 
 ```markdown
 1. Winter
 2. Snow
-  2.1 Snowflakes
+   2.1 Snowflakes
 3. Frost
 ```
 
@@ -128,28 +140,30 @@ Use two (2) whitespaces for continuous indentation of nested items and their con
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-* Winter
-    * Snow
-* Snowflakes
- * Frost
-* Arctic
-   * Sparkling
-           * Frozen
+- Winter
+    - Snow
+- Snowflakes
+ - Frost
+- Arctic
+   - Sparkling
+           - Frozen
 ```
 
 ```markdown
-* Winter
+- Winter
     Sparkling and frozen!
-* Snowflakes
+- Snowflakes
  Made of snow!
-* Snow
+- Snow
    Falls down!
        Arctic beauty
 ```
 
-`````markdown
-* Winter
+````markdown
+- Winter
         ```js
         import React, { PureComponent } from "react";
         class Frost extends PureComponent {
@@ -157,39 +171,41 @@ Use two (2) whitespaces for continuous indentation of nested items and their con
         }
         export default Frost;
         ```
-   * Snow
+   - Snow
     ```java
     import static winter.Snow;
     String[] flakes = Snow.getFlakes();
     ```
- * Frost
+ - Frost
    > Sparkling and frozen!
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* Winter
-  * Snow
-* Snowflakes
-  * Frost
-* Arctic
-  * Sparkling
-    * Frozen
+- Winter
+  - Snow
+- Snowflakes
+  - Frost
+- Arctic
+  - Sparkling
+    - Frozen
 ```
 
 ```markdown
-* Winter
+- Winter
   Sparkling and frozen!
-* Snowflakes
+- Snowflakes
   Made of snow!
-* Snow
+- Snow
   Falls down!
   Arctic beauty
 ```
 
-`````markdown
-* Winter
+````markdown
+- Winter
   ```js
   import React, { PureComponent } from "react";
   class Frost extends PureComponent {
@@ -197,14 +213,14 @@ Use two (2) whitespaces for continuous indentation of nested items and their con
   }
   export default Frost;
   ```
-  * Snow
+  - Snow
     ```java
     import winter.Snow;
     String[] flakes = Snow.getFlakes();
     ```
-    * Frost
+    - Frost
       > Sparkling and frozen!
-`````
+````
 
 ## Empty Lines
 
@@ -216,23 +232,27 @@ A list must not contain blank lines between each list item.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-* Winter
+- Winter
 
-* Snow
+- Snow
 
-  * Snowflakes
+  - Snowflakes
 
-* Frost
+- Frost
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* Winter
-* Snow
-  * Snowflakes
-* Frost
+- Winter
+- Snow
+  - Snowflakes
+- Frost
 ```
 
 ## Empty Lines Before And After
@@ -243,12 +263,14 @@ Always surround lists by a single empty line except at the beginning of the file
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ... snowflakes are falling.
-* Winter
-* Snow
-  * Snowflakes
-* Frost
+- Winter
+- Snow
+  - Snowflakes
+- Frost
 Sparkling and frozen...
 ```
 
@@ -256,24 +278,26 @@ Sparkling and frozen...
 ... snowflakes are falling.
 
 
-* Winter
-* Snow
-  * Snowflakes
-* Frost
+- Winter
+- Snow
+  - Snowflakes
+- Frost
 
 
 Sparkling and frozen...
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 ... snowflakes are falling.
 
-* Winter
-* Snow
-  * Snowflakes
-* Frost
+- Winter
+- Snow
+  - Snowflakes
+- Frost
 
 Sparkling and frozen...
 ```
@@ -288,12 +312,14 @@ When the list items are meant to be imaginary concatenated with the sentence tha
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The winter has
 
-* Many snowflakes that are falling down.
-* Sparkling and frozen elements!
-* A lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
+- Many snowflakes that are falling down.
+- Sparkling and frozen elements!
+- A lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
 ```
 
 Enumerations or context-dependent:
@@ -301,9 +327,9 @@ Enumerations or context-dependent:
 ```markdown
 The winter has
 
-* **snowflakes** - They are falling down.
-* **elements** - They are sparkling and frozen!
-* **beautiful animals** - Like e.g a lot of snowy owls, arctic foxes, and grizzly bears.
+- **snowflakes** - They are falling down.
+- **elements** - They are sparkling and frozen!
+- **beautiful animals** - Like e.g a lot of snowy owls, arctic foxes, and grizzly bears.
 ```
 
 Proper names or code snippets:
@@ -311,18 +337,20 @@ Proper names or code snippets:
 ```markdown
 A list for
 
-* react
-* `string`
+- react
+- `string`
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 The winter has
 
-* many snowflakes that are falling down.
-* sparkling and frozen elements!
-* a lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
+- many snowflakes that are falling down.
+- sparkling and frozen elements!
+- a lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
 ```
 
 Enumerations or context-dependent:
@@ -330,9 +358,9 @@ Enumerations or context-dependent:
 ```markdown
 The winter has
 
-* **Snowflakes** - They are falling down.
-* **Elements** - They are sparkling and frozen!
-* **Beautiful animals** - e.g a lot of snowy owls, arctic foxes, and grizzly bears.
+- **Snowflakes** - They are falling down.
+- **Elements** - They are sparkling and frozen!
+- **Beautiful animals** - e.g a lot of snowy owls, arctic foxes, and grizzly bears.
 ```
 
 Proper names or code snippets:
@@ -340,8 +368,8 @@ Proper names or code snippets:
 ```markdown
 A list for
 
-* React
-* `String`
+- React
+- `String`
 ```
 
 ## Punctuation After Items
@@ -352,34 +380,38 @@ Use punctuation at the end of a list item when it contains a sentence that start
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-* Winter.
-* Snow.
-* Frost.
+- Winter.
+- Snow.
+- Frost.
 ```
 
 ```markdown
 The Winter is
 
-* sparkling and frozen
-* cold and snowy
-* bright and enlightened
+- sparkling and frozen
+- cold and snowy
+- bright and enlightened
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* Winter
-* Snow
-* Frost
+- Winter
+- Snow
+- Frost
 ```
 
 ```markdown
 The Winter is
 
-* sparkling and frozen.
-* cold and snowy.
-* bright and enlightened.
+- sparkling and frozen.
+- cold and snowy.
+- bright and enlightened.
 ```
 
 ## Checkbox Character Style
@@ -392,24 +424,28 @@ Use `x` for ticked checkboxes and a single space ` ` for non ticked checkboxes.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-* [!] Winter
-* [~] Snow
-* [»] Frost
+- [!] Winter
+- [~] Snow
+- [»] Frost
 ```
 
 ```markdown
-* [] Winter
-* [  ] Snow
-* [     ] Frost
+- [] Winter
+- [  ] Snow
+- [     ] Frost
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
-* [x] Winter
-* [ ] Snow
-* [x] Frost
+- [x] Winter
+- [ ] Snow
+- [x] Frost
 ```
 
 [remark-lint-checkbox-character-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-checkbox-character-style

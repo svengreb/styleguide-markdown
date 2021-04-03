@@ -69,6 +69,6 @@ module.exports = {
     [maximumLineLength, false],
     [noConsecutiveBlankLines, ["warn"]],
     [noMissingBlankLines, ["warn", { exceptTightLists: true }]],
-    [noTabs, ["error"]]
-  ]
+    [noTabs, ["error"]],
+  ],
 };

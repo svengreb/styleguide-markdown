@@ -45,6 +45,6 @@ module.exports = {
     [codeBlockStyle, ["error", "fenced"]],
     [fencedCodeFlag, ["error", { allowEmpty: false }]],
     [fencedCodeMarker, ["error", "`"]],
-    [noShellDollars, ["warn"]]
-  ]
+    [noShellDollars, ["warn"]],
+  ],
 };

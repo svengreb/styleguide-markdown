@@ -1,6 +1,6 @@
 # Code of Conduct
 
-All members, committers and volunteers in this project are required to act according to the following Code of Conduct. We ask you to follow these guidelines which help steer our interactions and strive to keep Styleguide Markdown a positive and growing project and help us provide and ensure a safe environment for everyone.
+All members, committers and volunteers in this project are required to act according to the following Code of Conduct. We ask you to follow these guidelines which help steer our interactions and strive to keep styleguide-markdown a positive and growing project and help us provide and ensure a safe environment for everyone.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact us via [email][email]. Your reports will be taken seriously and not dismissed or argued with.
 

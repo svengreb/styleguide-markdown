@@ -6,11 +6,15 @@ Prefer absolute URLs instead of relative ones to improve the portability of the 
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ![snowflake icon][snowflake] snowflakes falling down in the winter!
 
 [snowflake]: ../assets/snowflake.png
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 

@@ -8,6 +8,8 @@ Avoid indentation based code blocks, use [fenced code blocks][gfm-spec-fenced_co
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
     import React, { PureComponent } from "react";
 
@@ -18,9 +20,11 @@ Avoid indentation based code blocks, use [fenced code blocks][gfm-spec-fenced_co
     export default Frost;
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 ```js
 import React, { PureComponent } from "react";
 
@@ -30,7 +34,7 @@ class Frost extends PureComponent {
 
 export default Frost;
 ```
-`````
+````
 
 ## Syntax Highlighting
 
@@ -42,7 +46,9 @@ Explicitly declare the language for blocks containing code snippets, so that nei
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 ```
 import React, { PureComponent } from "react";
 
@@ -52,11 +58,13 @@ class Frost extends PureComponent {
 
 export default Frost;
 ```
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 ```js
 import React, { PureComponent } from "react";
 
@@ -66,7 +74,7 @@ class Frost extends PureComponent {
 
 export default Frost;
 ```
-`````
+````
 
 ## Escape Newlines In Terminal Commands
 
@@ -76,20 +84,24 @@ Many command snippets are intended to be copied and pasted directly into e.g. a 
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 ```sh
 npx run docs:generate -- --template=winter --description="Sparkling and frozen" --elements="snow,frost,ice" --snowflakes=20
 ```
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 ```sh
 npx run docs:generate -- --template=winter --description="Sparkling and frozen" \
 --elements="snow,frost,ice" --snowflakes=20
 ```
-`````
+````
 
 ## No Shell Code Dollar Sign
 
@@ -101,26 +113,30 @@ Avoid to use dollar sign (`$`) in shell code. It improves the readability and pr
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 ```sh
 $ echo "The winter is sparkling and frozen!"
 ```
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 ```sh
 echo "The winter is sparkling and frozen!"
 ```
-`````
+````
 
-`````markdown
+````markdown
 ```sh
 winter="The winter is sparkling and frozen!"
 echo $winter # The winter is sparkling and frozen!
 ```
-`````
+````
 
 ## Within Lists
 
@@ -130,23 +146,27 @@ When using code blocks within lists make sure to use the correct indention to no
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 * Winter
 ```jsx
 const Snow = <Snowflake amount=20 />;
 ```
 * Frost
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
-* Winter
+````markdown
+- Winter
   ```jsx
   const Snow = <Snowflake amount=20 />;
   ```
-* Frost
-`````
+- Frost
+````
 
 ## Inline
 
@@ -156,9 +176,13 @@ Use one (1) backtick character `` ` `` to create a `inline code` span which will
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 The winter has ```sparkling``` and frozen ```elements```!
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -178,7 +202,9 @@ Use backtick characters `` ` `` for both blocks and inline code.
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 ~~~js
 import React, { PureComponent } from "react";
 class Snow extends PureComponent {
@@ -186,11 +212,13 @@ class Snow extends PureComponent {
 }
 export default Snow;
 ~~~
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 ```js
 import React, { PureComponent } from "react";
 class Snow extends PureComponent {
@@ -198,7 +226,7 @@ class Snow extends PureComponent {
 }
 export default Snow;
 ```
-`````
+````
 
 ## Use Cases
 

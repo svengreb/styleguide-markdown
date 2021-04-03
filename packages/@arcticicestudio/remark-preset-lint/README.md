@@ -8,7 +8,6 @@
 
 <p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Markdown%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=markdown"/></a> <a href="https://github.com/arcticicestudio/styleguide-javascript/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-javascript.svg?style=flat-square&label=JavaScript%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=javascript"/></a> <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git"/></a></p>
 
-
 This project implements the rules of the [“Arctic Ice Studio Markdown Style Guide”][gh-arcticicestudio/styleguide-markdown] as an extensible [remark-lint][gh-remarkjs/remark-lint] rule preset.
 The package supports all [official core rules][gh-remarkjs/remark-lint-blob-docs-rules] and [various plugins][gh-remarkjs/remark-blob-docs-plugins] like the [“frontmatter” Markdown extension][gh-remarkjs/remark-frontmatter] for [YAML][] and [TOML][gh-toml-lang/toml] and [“GitHub Flavoured“ Markdown][gh-remarkjs/remark-gfm].
 
@@ -46,6 +45,7 @@ For **npm version equal to or higher than `5.0.0` (pre-bundled with [Node.js 8][
 ```sh
 npx install-peerdeps --dev @arcticicestudio/remark-preset-lint
 ```
+
 ##### npm versions `<5.0.0`
 
 If you’re using a **npm version less than `5.0.0`**, the `npx` package is not pre-bundled, but users can either simply install the [`npx`][npm-npx] package globally to run the above command or use the [install-peerdeps][npm-install-peerdeps] helper package locally/globally to let it handle the installation of all peer dependencies:
@@ -105,22 +105,21 @@ Please read the [contribution guidelines][ghio-arcticicestudio/styleguide-markdo
 <p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 [gh-arcticicestudio/styleguide-markdown]: https://github.com/arcticicestudio/styleguide-markdown
-[gh-remarkjs/remark-lint]: https://github.com/remarkjs/remark-lint
+[gh-blog-npm_v7]: https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli
+[gh-npm/rfcs-blob-install_peer_deps]: https://github.com/npm/rfcs/blob/latest/implemented/0025-install-peer-deps.md
+[gh-remarkjs/remark-blob-docs-plugins]: https://github.com/remarkjs/remark/blob/main/doc/plugins.md
 [gh-remarkjs/remark-frontmatter]: https://github.com/remarkjs/remark-frontmatter
 [gh-remarkjs/remark-gfm]: https://github.com/remarkjs/remark-gfm
-[gh-remarkjs/remark-blob-docs-plugins]: https://github.com/remarkjs/remark/blob/main/doc/plugins.md
-[gh-remarkjs/remark-lint-tree-pkgs]: https://github.com/remarkjs/remark-lint/tree/main/packages
-[yarn-classic]: https://classic.yarnpkg.com
-[gh-blog-npm_v7]: https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli
-[npm]: https://www.npmjs.com
-[node-blog-peer_deps]: https://nodejs.org/en/blog/npm/peer-dependencies
-[gh-npm/rfcs-blob-install_peer_deps]: https://github.com/npm/rfcs/blob/latest/implemented/0025-install-peer-deps.md
-[npm-install-peerdeps]: https://www.npmjs.com/package/install-peerdeps
-[node-dist-v8-latest]: https://nodejs.org/dist/latest-v8.x
-[npm-npx]: https://www.npmjs.com/package/npx
-[node-dist-index]: https://nodejs.org/dist/index.json
 [gh-remarkjs/remark-lint-blob-docs-rules]: https://github.com/remarkjs/remark-lint/blob/main/doc/rules.md#list-of-rules
+[gh-remarkjs/remark-lint-tree-pkgs]: https://github.com/remarkjs/remark-lint/tree/main/packages
+[gh-remarkjs/remark-lint]: https://github.com/remarkjs/remark-lint
 [gh-toml-lang/toml]: https://github.com/toml-lang/toml
-[yaml]: http://yaml.org
-[remark-lint-doc-conf]: https://github.com/remarkjs/remark-lint#configuring-remark-lint
 [ghio-arcticicestudio/styleguide-markdown-dev-contributing]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio/development/contributing.html
+[node-blog-peer_deps]: https://nodejs.org/en/blog/npm/peer-dependencies
+[node-dist-index]: https://nodejs.org/dist/index.json
+[node-dist-v8-latest]: https://nodejs.org/dist/latest-v8.x
+[npm-install-peerdeps]: https://www.npmjs.com/package/install-peerdeps
+[npm-npx]: https://www.npmjs.com/package/npx
+[remark-lint-doc-conf]: https://github.com/remarkjs/remark-lint#configuring-remark-lint
+[yaml]: http://yaml.org
+[yarn-classic]: https://classic.yarnpkg.com

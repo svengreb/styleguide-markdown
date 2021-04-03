@@ -97,6 +97,6 @@ module.exports = {
     [noHeadingIndent, ["error"]],
     [noHeadingLikeParagraph, ["error"]],
     [noHeadingPunctuation, ["warn"]],
-    [noMultipleToplevelHeadings, false]
-  ]
+    [noMultipleToplevelHeadings, false],
+  ],
 };

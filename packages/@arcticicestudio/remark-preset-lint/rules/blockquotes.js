@@ -29,6 +29,6 @@ const noBlockquoteWithoutMarker = require("remark-lint-no-blockquote-without-mar
 module.exports = {
   plugins: [
     [blockquoteIndentation, ["error", 2]],
-    [noBlockquoteWithoutMarker, ["warn"]]
-  ]
+    [noBlockquoteWithoutMarker, ["warn"]],
+  ],
 };

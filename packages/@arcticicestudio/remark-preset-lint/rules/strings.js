@@ -20,7 +20,5 @@ const linkTitleStyle = require("remark-lint-link-title-style");
  * @see https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
  */
 module.exports = {
-  plugins: [
-    [linkTitleStyle, ["error", "\""]]
-  ]
+  plugins: [[linkTitleStyle, ["error", '"']]],
 };
