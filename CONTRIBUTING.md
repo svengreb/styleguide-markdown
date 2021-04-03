@@ -1,16 +1,16 @@
-# Contributing to Styleguide Markdown
+# Contributing to styleguide-markdown
 
-Thanks for contributing to Styleguide Markdown!
+Thanks for contributing to styleguide-markdown!
 
-This is a set of guidelines for contributing to Styleguide Markdown. Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+This is a set of guidelines for contributing to styleguide-markdown. Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-As for everything else in the project, the contributions to Styleguide Markdown are governed by our [Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code. Please report unacceptable behavior via [email][email].
+As for everything else in the project, the contributions to styleguide-markdown are governed by our [Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code. Please report unacceptable behavior via [email][email].
 
 ## Getting Started
 
-Styleguide Markdown is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](#documentations), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into Styleguide Markdown itself by [submitting a pull request](#pull-requests).
+styleguide-markdown is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](#documentations), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into styleguide-markdown itself by [submitting a pull request](#pull-requests).
 
 The project development workflow and process uses [GitHub Issues][gh-issues]- and [Pull Requests][gh-pr] management to track issues and pull requests.
 
@@ -18,7 +18,7 @@ Before you continue with this contribution guideslines we highly recommend to re
 
 ### Bug Reports
 
-A bug is a *demonstrable problem* that is caused by the code in the repository. This section guides you through submitting a bug report for Styleguide Markdown. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior and find related reports.
+A bug is a _demonstrable problem_ that is caused by the code in the repository. This section guides you through submitting a bug report for styleguide-markdown. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior and find related reports.
 
 **Do NOT report security vulnerabilities in public issues!** Please contact the core team members and the project owner in a responsible manner by [email][email] only. We will assess the issue as soon as possible on a best-effort basis and will give you an estimate for when we have a fix and release available for an eventual public disclosure.
 
@@ -33,7 +33,7 @@ When you are creating a bug report, please provide as much detail and context as
 - **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem.
 - **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets. If you are providing snippets in the issue, use [Markdown code blocks][gh-help-markdown-code-blocks] or [attach files to the issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests).
 
-Please provide the version of Styleguide Markdown your are using and optionally include details about your configuration and environment.
+Please provide the version of styleguide-markdown your are using and optionally include details about your configuration and environment.
 
 If possible please provide more context by answering these questions:
 
@@ -54,7 +54,7 @@ Before creating enhancement suggestions, please check if your idea fits with the
 - **Provide a step-by-step description of the suggested enhancement** in as many details as possible and provide use-cases.
 - **Provide examples to demonstrate the need of an enhancement**. Include copy/pasteable snippets which you use in those examples, use [Markdown code blocks][gh-help-markdown-code-blocks] or [attach files to the issue][gh-help-attach-files].
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-- **Explain why this enhancement would be useful** to most Styleguide Markdown users.
+- **Explain why this enhancement would be useful** to most styleguide-markdown users.
 - **Maybe list some other style guides where this enhancement exists.**
 
 ### Pull Requests
@@ -82,12 +82,12 @@ You can help improve the docs and guides by making the documentation more cohere
 
 ## Branch Organization
 
-The Styleguide Markdown uses the [gitflow][gitflow] branching model. The repository consists of two core branches with an infinite development lifecycle:
+The styleguide-markdown uses the [gitflow][gitflow] branching model. The repository consists of two core branches with an infinite development lifecycle:
 
 - `master` - The source code of `HEAD` always reflects a tagged release version.
 - `develop` - The default branch where the source code of `HEAD` always reflects a state with the latest development state.
 
-**All [pull requests](#pull-requests) for the limited development lifecycle *story*/*topic* branches must be send against the `develop` branch**.
+**All [pull requests](#pull-requests) for the limited development lifecycle _story_/_topic_ branches must be send against the `develop` branch**.
 
 <!-- lint disable no-heading-punctuation -->
 
@@ -101,11 +101,11 @@ Some issues are created with missing information, not reproducible, or plain inv
 
 ### Give Feedback On Issues and Pull Requests
 
-We're always looking for more opinions on discussions in issues and pull request reviews which is a good opportunity to influence the future direction of Styleguide Markdown.
+We're always looking for more opinions on discussions in issues and pull request reviews which is a good opportunity to influence the future direction of styleguide-markdown.
 
 The [question][gh-issues-label-question] issue label is a good place to find ongoing discussions and questions.
 
-## Styleguides
+## Style Guides
 
 Every major open source project has its own style guide, a set of standards and conventions for the writing and design of code, documentations and assets. It is much easier to understand a large codebase when all the code in it is in a consistent style.
 
@@ -113,12 +113,9 @@ A style guide establishes and enforces style to improve the intelligibility and 
 
 ### Git Commit Messages
 
-A well-crafted Git commit message is the best way to communicate *context* about a change to the maintainers. The code will tell what changed, but only the commit message can properly tell why. Re-establishing the context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it as much as possible.
+A well-crafted Git commit message is the best way to communicate _context_ about a change to the maintainers. The code will tell what changed, but only the commit message can properly tell why. Re-establishing the context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it as much as possible.
 
-Styleguide Markdown adheres to the [Arctic Ice Studio Git Style Guide][styleguide-git-github].
-
-[![Arctic Ice Studio Git Style Guide Badge][styleguide-git-badge]][styleguide-git-github]
-
+styleguide-markdown adheres to the [Arctic Ice Studio Git Style Guide][styleguide-git-github].
 The style guide assumes that you are familiar with the [gitflow][gitflow] branching model.
 
 ## MCVE
@@ -131,7 +128,7 @@ When [reporting a bug](#bug-reports), somtimes even when [suggestig a enhancemen
 - …Complete – Provide all parts needed to reproduce the behavior
 - …Verifiable – Test the code you're about to provide to make sure it reproduces the behavior
 
-A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][sscce], a *Short, Self Contained, Correct (Compilable), Example*.
+A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][sscce], a _Short, Self Contained, Correct (Compilable), Example_.
 
 The recommended way for GitHub based projects is to create it as [Gist](https://gist.github.com) or new repository, but of course you can [attach it to issues and pull requests as files](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), use any free code paste- or file hosting service or paste the code in [Markdown code blocks][gh-help-markdown-code-blocks] into the issue.
 
@@ -144,7 +141,7 @@ The more code there is to go through, the less likely developers can understand 
 
 #### Minimal and readable
 
-Minimal does not mean terse – don't sacrifice communication to brevity. Use consistent naming and indentation following the [styleguide](#styleguides), and include comments if needed to explain portions of the code.
+Minimal does not mean terse – don't sacrifice communication to brevity. Use consistent naming and indentation following the [styleguide](#style-guides), and include comments if needed to explain portions of the code.
 
 ### Complete
 
@@ -152,7 +149,7 @@ Make sure all resources and code necessary to reproduce the behavior is included
 
 ### Verifiable
 
-To entirely understand your enhancement or bug report, developers will need to verify that it *exists*:
+To entirely understand your enhancement or bug report, developers will need to verify that it _exists_:
 
 - **Follow the contribution guidelines regarding the description and details**. Without information developers won't be able to understand and reproduce the behavior.
 - **Eliminate any issues that aren't relevant**. Ensure that there are no compile-time errors.
@@ -160,7 +157,7 @@ To entirely understand your enhancement or bug report, developers will need to v
 
 ## Versioning
 
-Styleguide Markdown follows the [Semantic Versioning Specification][semver] (SemVer). We release patch versions for bug fixes, minor versions for enhancements like new features and improvements, and major versions for any backwards incompatible changes. Deprecation warnings are introduced for breaking changes in a minor version so that users learn about the upcoming changes and migrate their code in advance.
+styleguide-markdown follows the [Semantic Versioning Specification][semver] (SemVer). We release patch versions for bug fixes, minor versions for enhancements like new features and improvements, and major versions for any backwards incompatible changes. Deprecation warnings are introduced for breaking changes in a minor version so that users learn about the upcoming changes and migrate their code in advance.
 
 Every significant change is documented in the [changelog][changelog].
 
@@ -175,10 +172,10 @@ Thanks for the inspirations and attributions to GitHub's [Open Source Guides](ht
 [gh-help-attach-files]: https://help.github.com/articles/file-attachments-on-issues-and-pull-requests
 [gh-help-issue-keywords]: https://help.github.com/articles/closing-issues-using-keywords
 [gh-help-markdown-code-blocks]: https://help.github.com/articles/basic-writing-and-formatting-syntax
-[gh-issues]: https://github.com/arcticicestudio/styleguide-markdown/issues
 [gh-issues-label-question]: https://github.com/arcticicestudio/styleguide-markdown/labels/question
-[gh-pr]: https://github.com/arcticicestudio/styleguide-markdown/pulls
+[gh-issues]: https://github.com/arcticicestudio/styleguide-markdown/issues
 [gh-osguide-contribute]: https://opensource.guide/how-to-contribute
+[gh-pr]: https://github.com/arcticicestudio/styleguide-markdown/pulls
 [git-docs-branching-workflows]: https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
 [gitflow]: http://nvie.com/posts/a-successful-git-branching-model
 [nodejs]: https://nodejs.org
@@ -186,10 +183,9 @@ Thanks for the inspirations and attributions to GitHub's [Open Source Guides](ht
 [ref-react-contributing]: https://facebook.github.io/react/contributing/how-to-contribute.html
 [ref-rubyonrails-contributing]: http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html
 [semver]: http://semver.org
-[stackoverflow-mcve]: https://stackoverflow.com/help/mcve
-[styleguide-git-badge]: https://raw.githubusercontent.com/arcticicestudio/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg?sanitize=true
-[styleguide-git-github]: https://github.com/arcticicestudio/styleguide-git
 [sscce]: http://sscce.org
+[stackoverflow-mcve]: https://stackoverflow.com/help/mcve
+[styleguide-git-github]: https://github.com/arcticicestudio/styleguide-git
 [template-issue]: https://github.com/arcticicestudio/styleguide-markdown/blob/develop/.github/ISSUE_TEMPLATE.md
 [template-pr]: https://github.com/arcticicestudio/styleguide-markdown/blob/develop/.github/PULL_REQUEST_TEMPLATE.md
 [version-latest]: https://github.com/arcticicestudio/styleguide-markdown/releases/latest

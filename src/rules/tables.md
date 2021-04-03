@@ -14,12 +14,16 @@ Lists and subheadings usually suffice to present the same information in a sligh
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 | Element  | URL | Note | Attributes | Types |
 | :------: | --- | ---- | ---------- | ----- |
 | Snow     | [Wikipedia](http://this-is-a-very-long-url-for-information-about-snowflakes.com) | It falls down in winter! | soft, damp, crystal-like | powder snow, wet snow, lazy snow |
 | Frost    | [Wikipedia](http://this-is-a-very-long-url-for-information-about-frost-and-the-winter-season.com) | Sparkling and frozen! | cold, grainy | permafrost, hard rime, ground frost |
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -28,28 +32,28 @@ Lists and subheadings usually suffice to present the same information in a sligh
 
 ### Snow
 
-* [Wikipedia][wikipedia-snow]
-* It falls down in winter!
-* Attributes:
-  * soft
-  * damp
-  * crystal-like
-* Types:
-  * powder snow
-  * wet snow
-  * lazy snow
+- [Wikipedia][wikipedia-snow]
+- It falls down in winter!
+- Attributes:
+  - soft
+  - damp
+  - crystal-like
+- Types:
+  - powder snow
+  - wet snow
+  - lazy snow
 
 ## Frost
 
-* [Knowledge Base][knowledge_base-frost]
-* Sparkling and frozen!
-* Attributes:
-  * cold
-  * grainy
-* Types:
-  * permafrost
-  * hard rime
-  * ground frost
+- [Knowledge Base][knowledge_base-frost]
+- Sparkling and frozen!
+- Attributes:
+  - cold
+  - grainy
+- Types:
+  - permafrost
+  - hard rime
+  - ground frost
 
 [knowledge_base-frost]: http://this-is-a-very-long-url-for-information-about-frost-and-the-winter-season.com
 [wikipedia-snow]: http://this-is-a-very-long-url-for-information-about-snow.com
@@ -72,6 +76,8 @@ Always surround tables by a single empty line except at the beginning of the fil
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ... snowflakes are falling.
 | Element | Attribute |
@@ -95,6 +101,8 @@ Sparkling and frozen...
 
 Sparkling and frozen...
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -118,6 +126,8 @@ Surround the content of headers and cells with at least one (1) single whitespac
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 |Element|Attribute|
 | ----- | ------- |
@@ -129,6 +139,8 @@ Surround the content of headers and cells with at least one (1) single whitespac
 |  -------           |  ---------    |
 |  Frost             |  Sparkling    |
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -147,6 +159,8 @@ The delimiter row must only consist of cells whose only content are hyphens (`-`
 ###### Examples
 
 ⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
 
 ```markdown
 | Element | Attribute |
@@ -172,6 +186,8 @@ The delimiter row must only consist of cells whose only content are hyphens (`-`
 | Frost   | Sparkling |
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
@@ -183,7 +199,7 @@ The delimiter row must only consist of cells whose only content are hyphens (`-`
 ```markdown
 | Element | Attribute |
 | :-----: | --------: |
-| Frost   | Sparkling |
+|  Frost  | Sparkling |
 ```
 
 ## Minimum Column Width
@@ -196,6 +212,8 @@ The minimum column width is determined by the cell with the longest content in t
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 | Element | Attribute |
 | ------- | --------- |
@@ -203,11 +221,13 @@ The minimum column width is determined by the cell with the longest content in t
 | Snow    | Falling down! |
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
 | Element | Attribute             |
-| ------- | ---------             |
+| ------- | --------------------- |
 | Frost   | Sparkling and frozen! |
 | Snow    | Falling down!         |
 ```
@@ -224,6 +244,8 @@ Unaligned tables are easier to write, but tables with aligned border pipes (`|`)
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 | Element | Attribute |
 | --- | --- |
@@ -232,11 +254,13 @@ Unaligned tables are easier to write, but tables with aligned border pipes (`|`)
 | Ice | Everything is smooth and slippery in winter! |
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
 | Element | Attribute                                    |
-| ------- | ---------                                    |
+| ------- | -------------------------------------------- |
 | Frost   | Sparkling and frozen!                        |
 | Snow    | Falling down!                                |
 | Ice     | Everything is smooth and slippery in winter! |
@@ -253,6 +277,8 @@ Never indent tables.
 Note: The `·` character represents a whitespace.
 
 ⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
 
 ```markdown
 ·| Element | Attribute             |
@@ -275,20 +301,21 @@ Note: The `·` character represents a whitespace.
 ·········| Snow    | Falling down!         |
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
 | Element | Attribute             |
-| ------- | ---------             |
+| ------- | --------------------- |
 | Frost   | Sparkling and frozen! |
 | Snow    | Falling down!         |
 ```
 
 [blockquotes]: blockquotes.md
 [code-blocks]: code.md#blocks
-[lists]: lists.md
 [links-inline]: links.md#inline
-
+[lists]: lists.md
 [remark-lint-no-table-indentation]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-table-indentation
 [remark-lint-table-cell-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-table-cell-padding
 [remark-lint-table-pipe-alignment]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-table-pipe-alignment

@@ -19,7 +19,5 @@ const noHtml = require("remark-lint-no-html");
  * @see https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
  */
 module.exports = {
-  plugins: [
-    [noHtml, false]
-  ]
+  plugins: [[noHtml, false]],
 };

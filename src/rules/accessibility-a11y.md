@@ -8,11 +8,15 @@ Add an alternative text for images.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ![][snowflake]
 
 [snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -20,6 +24,6 @@ Add an alternative text for images.
 ![snowflake icon][snowflake]
 
 [snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
-````
+```
 
 [a11y]: https://a11yproject.com

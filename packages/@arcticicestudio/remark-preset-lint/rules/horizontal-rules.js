@@ -20,7 +20,5 @@ const ruleStyle = require("remark-lint-rule-style");
  * @see https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
  */
 module.exports = {
-  plugins: [
-    [ruleStyle, ["error", "---"]]
-  ]
+  plugins: [[ruleStyle, ["error", "---"]]],
 };

@@ -57,6 +57,6 @@ module.exports = {
     [noFileNameConsecutiveDashes, ["warn"]],
     [noFileNameIrregularCharacters, false],
     [noFileNameMixedCase, ["error"]],
-    [noFileNameOuterDashes, ["warn"]]
-  ]
+    [noFileNameOuterDashes, ["warn"]],
+  ],
 };

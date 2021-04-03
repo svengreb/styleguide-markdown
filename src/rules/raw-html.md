@@ -11,15 +11,19 @@ Aligning content can improve the design and layout e.g. images and project logos
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 <p style="text-align:center">The winter is winter is sparkling and frozen!</p>
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 <p align="center">The winter is winter is sparkling and frozen!</p>
-````
+```
 
 ## Inline Content
 
@@ -31,25 +35,29 @@ Although MDN states that the `width` and `height` attributes are deprecated and 
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png" style="text-align:center;width:16;height:16"/> snowflakes falling down in the winter!
-````
+```
 
 No way to define the size:
 
 ```markdown
 Sparkling ![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png) snowflakes falling down in the winter!
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png" width=16 height=16 align="center"/> snowflakes falling down in the winter!
-````
+```
 
 ## Collapsed Content
 
-Use the HTML [`<details>`][mdn-html-element-details] tag to add collapsible content. It creates a disclosure widget in which information is visible only when the widget is toggled into an *open* state. A summary or label can be provided using the [`<summary>`][mdn-html-element-summary] element.
+Use the HTML [`<details>`][mdn-html-element-details] tag to add collapsible content. It creates a disclosure widget in which information is visible only when the widget is toggled into an _open_ state. A summary or label can be provided using the [`<summary>`][mdn-html-element-summary] element.
 
 This can be useful to e.g. hide large table of contents or code blocks that might disturb the focus or force the reader to scroll long sites.
 
@@ -62,7 +70,7 @@ This can be useful to e.g. hide large table of contents or code blocks that migh
   <summary>Winter</summary>
   <p>Sparkling and frozen!</p>
 </details>
-````
+```
 
 [gfm-spec-disallowed_raw_html]: https://github.github.com/gfm/#disallowed-raw-html-extension-
 [mdn-css-height]: https://developer.mozilla.org/en-US/docs/Web/CSS/height

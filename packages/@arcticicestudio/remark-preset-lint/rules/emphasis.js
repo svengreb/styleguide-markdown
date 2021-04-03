@@ -48,6 +48,6 @@ module.exports = {
     [emphasisMarker, ["warn", "consistent"]],
     [noEmphasisAsHeading, ["warn"]],
     [noInlinePadding, ["error"]],
-    [strongMarker, ["error", "*"]]
-  ]
+    [strongMarker, ["error", "*"]],
+  ],
 };

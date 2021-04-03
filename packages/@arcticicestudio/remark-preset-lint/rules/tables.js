@@ -46,6 +46,6 @@ module.exports = {
     [noTableIndentation, ["error"]],
     [tableCellPadding, ["error", "padded"]],
     [tablePipeAlignment, ["error"]],
-    [tablePipes, ["error"]]
-  ]
+    [tablePipes, ["error"]],
+  ],
 };

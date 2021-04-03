@@ -106,6 +106,6 @@ module.exports = {
     [noShortcutReferenceImage, false],
     [noShortcutReferenceLink, false],
     [noUndefinedReferences, ["error"]],
-    [noUnusedDefinitions, ["warn"]]
-  ]
+    [noUnusedDefinitions, ["warn"]],
+  ],
 };

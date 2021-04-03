@@ -8,6 +8,8 @@ Always separate the marker `>` from the actual content using a single whitespace
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 >Winter
 ```
@@ -15,6 +17,8 @@ Always separate the marker `>` from the actual content using a single whitespace
 ```markdown
 >  Winter
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -32,6 +36,8 @@ Use a `greater than` sign for every line, including wrapped.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 > Winter
 Snow
@@ -42,6 +48,8 @@ Snow
 for many beautiful animals like snowy owls,
 arctic foxes, and grizzly bears.
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 

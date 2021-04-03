@@ -20,7 +20,5 @@ const noParagraphContentIndent = require("remark-lint-no-paragraph-content-inden
  * @see https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
  */
 module.exports = {
-  plugins: [
-    [noParagraphContentIndent, ["error"]]
-  ]
+  plugins: [[noParagraphContentIndent, ["error"]]],
 };

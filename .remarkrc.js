@@ -1,21 +1,18 @@
 /*
  * Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2018-present Sven Greb <code@svengreb.de>
- *
- * Project:    Arctic Ice Studio remark-lint Preset
- * Repository: https://github.com/arcticicestudio/remark-preset-lint-arcticicestudio
- * License:    MIT
+ * Copyright (c) 2018-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the LICENSE file.
  */
 
 /**
- * @file The remark-lint configuration.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
+ * Configurations for remark-lint.
+ *
+ * @see https://github.com/remarkjs/remark-lint
  */
-
 module.exports = {
   plugins: [
-    "remark-preset-lint-arcticicestudio",
-    /* Disabled to supress warnings about duplicate "Example" headings. */
-    ["remark-lint-no-duplicate-headings", false]
-  ]
+    "./packages/@arcticicestudio/remark-preset-lint/index.js",
+    /* Disabled to suppress warnings about duplicate "Example" headings. */
+    ["remark-lint-no-duplicate-headings", false],
+  ],
 };

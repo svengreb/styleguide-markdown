@@ -76,10 +76,16 @@ const unorderedListMarkerStyle = require("remark-lint-unordered-list-marker-styl
  */
 module.exports = {
   plugins: [
-    [checkboxCharacterStyle, ["error", {
-      checked: "x",
-      unchecked: " "
-    }]],
+    [
+      checkboxCharacterStyle,
+      [
+        "error",
+        {
+          checked: "x",
+          unchecked: " ",
+        },
+      ],
+    ],
     [checkboxContentIndent, ["error"]],
     [listItemBulletIndent, ["error"]],
     [listItemContentIndent, ["error"]],
@@ -87,6 +93,6 @@ module.exports = {
     [listItemSpacing, false],
     [orderedListMarkerStyle, ["error", "."]],
     [orderedListMarkerValue, ["error", "ordered"]],
-    [unorderedListMarkerStyle, ["error", "-"]]
-  ]
+    [unorderedListMarkerStyle, ["error", "-"]],
+  ],
 };

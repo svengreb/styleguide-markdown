@@ -1,6 +1,15 @@
+# Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the LICENSE file.
+
+# Configurations for EditorConfig.
+# See https://editorconfig.org/#file-format-details for more details.
+
 # +--------------------+
 # + Base Configuration +
 # +--------------------+
+root = true
+
 [*]
 charset = utf-8
 end_of_line = lf
@@ -14,5 +23,6 @@ trim_trailing_whitespace = true
 # + Languages +
 # +-----------+
 # +--- Markdown ---+
-[*.{md,gfm}]
+[*.{md}]
+max_line_length = off
 trim_trailing_whitespace = false
