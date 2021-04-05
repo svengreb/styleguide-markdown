@@ -1,6 +1,6 @@
 <!-- Click on the "Preview" tab to render the instructions in a more readable format -->
 
-> **Please read the [contribution guidelines](https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CONTRIBUTING.md) before filling out this pull request template**.
+> **Please read the [contribution guidelines](https://github.com/arcticicestudio/styleguide-markdown/blob/master/CONTRIBUTING.md) before filling out this pull request template**.
 
 ## Prerequisites
 

@@ -10,9 +10,11 @@
  * @license MIT
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @author Sven Greb <development@svengreb.de>
+ * @copyright 2018-present Arctic Ice Studio <development@arcticicestudio.com>
+ * @copyright 2018-present Sven Greb <development@svengreb.de>
  * @see https://github.com/remarkjs/remark-lint
  * @see https://remark.js.org
- * @see https://github.com/remarkjs/remark-lint/blob/master/doc/rules.md#list-of-rules
+ * @see https://github.com/remarkjs/remark-lint/blob/main/doc/rules.md#list-of-rules
  * @see https://github.com/remarkjs/remark-lint#configuring-remark-lint
  */
 module.exports = {
