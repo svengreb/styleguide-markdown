@@ -21,7 +21,7 @@ Prefer absolute URLs instead of relative ones to improve the portability of the 
 ```markdown
 ![snowflake icon][snowflake] snowflakes falling down in the winter!
 
-[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/snowflake.png
+[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/main/src/assets/snowflake.png
 ```
 
 ## Badges
