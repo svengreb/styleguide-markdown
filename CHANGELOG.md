@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/assets/images/repository-hero.svg?sanitize=true"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/main/assets/images/repository-hero.svg?sanitize=true"/></p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://arcticicestudio.github.io/styleguide-markdown" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&logo=read-the-docs&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
@@ -50,7 +50,7 @@
 
 <p align="center">Copyright &copy; 2018-present <a href="https://www.arcticicestudio.com" target="_blank" rel="noreferrer">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank" rel="noreferrer">Sven Greb</a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/master/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/main/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 <!--
 +------------------+

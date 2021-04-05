@@ -14,7 +14,7 @@ This section and the instructions in the sections below are only part of this is
 Please do your best to provide as much information as possible and use a clear and descriptive title for your bug report to help maintainers and the community understand and reproduce the behavior, find related reports and to resolve the ticket faster.
 
 - **Ensure the bug has not already been reported by using the [GitHub Issues search](https://github.com/arcticicestudio/styleguide-markdown/issues)** — check if this enhancement has already been suggested. If it has **and the issue is still open**, add your additions as comment to the existing issue instead of opening a new one. If you find a closed issue that seems to be similar to this one, include a link to the original issue in the [metadata head](#metadata-head) section of this issue.
-- **Ensure the bug is reproducible and has not already been fixed** — use the [latest version](https://github.com/arcticicestudio/styleguide-markdown/releases/latest) and [`master`](https://github.com/arcticicestudio/styleguide-markdown/tree/master) branch.
+- **Ensure the bug is reproducible and has not already been fixed** — use the [latest version](https://github.com/arcticicestudio/styleguide-markdown/releases/latest) and [`main`](https://github.com/arcticicestudio/styleguide-markdown/tree/main) branch.
 
 ## Metadata Head
 

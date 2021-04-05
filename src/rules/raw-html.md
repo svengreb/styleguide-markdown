@@ -38,13 +38,13 @@ Although MDN states that the `width` and `height` attributes are deprecated and 
 <!-- prettier-ignore-start -->
 
 ```markdown
-Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/snowflake.png" style="text-align:center;width:16;height:16"/> snowflakes falling down in the winter!
+Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/main/src/assets/snowflake.png" style="text-align:center;width:16;height:16"/> snowflakes falling down in the winter!
 ```
 
 No way to define the size:
 
 ```markdown
-Sparkling ![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/snowflake.png) snowflakes falling down in the winter!
+Sparkling ![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/main/src/assets/snowflake.png) snowflakes falling down in the winter!
 ```
 
 <!-- prettier-ignore-end -->
@@ -52,7 +52,7 @@ Sparkling ![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/st
 ⇡ **Correct** code for this rule:
 
 ```markdown
-Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/snowflake.png" width=16 height=16 align="center"/> snowflakes falling down in the winter!
+Sparkling <img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/main/src/assets/snowflake.png" width=16 height=16 align="center"/> snowflakes falling down in the winter!
 ```
 
 ## Collapsed Content
