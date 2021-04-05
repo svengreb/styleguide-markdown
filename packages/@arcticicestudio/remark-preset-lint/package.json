@@ -1,6 +1,6 @@
 {
   "name": "@arcticicestudio/remark-preset-lint",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Arctic Ice Studio Markdown code style guide rules as an extensible remark-lint rule preset",
   "author": "Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)",
   "contributors": [
