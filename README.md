@@ -1,8 +1,8 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/assets/images/repository-hero.svg?sanitize=true"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/assets/images/repository-hero.svg?sanitize=true"/></p>
 
 <p align="center">The Arctic Ice Studio Markdown code style.</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://arcticicestudio.github.io/styleguide-markdown" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&logo=read-the-docs&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://arcticicestudio.github.io/styleguide-markdown" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&logo=read-the-docs&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/blob/master/CHANGELOG.md" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 <p align="center"><a href="https://www.npmjs.com/package/@arcticicestudio/remark-preset-lint" target="_blank" rel="noreferrer"><img src="https://img.shields.io/npm/v/@arcticicestudio/remark-preset-lint.svg?style=flat-square&label=@arcticicestudio/remark-preset-lint&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2Q4ZGVlOSIgZD0iTTEyIDE0SDRhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjhhMiAyIDAgMCAxLTIgMnpNNCAzLjMzMkEuNjcuNjcgMCAwIDAgMy4zMzIgNHY4YzAgLjM2Ny4zLjY2OC42NjguNjY4aDhhLjY3LjY3IDAgMCAwIC42NjgtLjY2OFY0QS42Ny42NyAwIDAgMCAxMiAzLjMzMnptMCAwIi8+PHBhdGggZmlsbD0iI2Q4ZGVlOSIgZD0iTTggNmgyLjY2OHY2LjY2OEg4em0wIDAiLz48L3N2Zz4K"/></a></p>
 
@@ -33,7 +33,7 @@ The guide also includes information about [minimal, complete, and verifiable exa
 
 <p align="center">Copyright &copy; 2018-present <a href="https://www.arcticicestudio.com" target="_blank" rel="noreferrer">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank" rel="noreferrer">Sven Greb</a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/master/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 [commonmark]: http://commonmark.org
 [docs-dev-building]: https://arcticicestudio.github.io/styleguide-markdown/development/building.html
@@ -60,5 +60,5 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [docs]: https://arcticicestudio.github.io/styleguide-markdown
 [gfm]: https://github.github.com/gfm
 [gh-remarkjs/remark-lint]: https://github.com/remarkjs/remark-lint
-[gh-tree-pkg-remark-preset-lint]: https://github.com/arcticicestudio/styleguide-markdown/tree/develop/packages/@arcticicestudio/remark-preset-lint
+[gh-tree-pkg-remark-preset-lint]: https://github.com/arcticicestudio/styleguide-markdown/tree/master/packages/@arcticicestudio/remark-preset-lint
 [remark]: https://remark.js.org

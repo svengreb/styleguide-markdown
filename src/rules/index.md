@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/markdown-logo.png" width="40%"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/markdown-logo.png" width="40%"/></p>
 
 <p align="center">This section contains rules for <a href="https://daringfireball.net/projects/markdown" target="_blank" rel="noreferrer">Markdown</a> with support for <a href="https://github.github.com/gfm">GitHub Flavored Markdown</a> which is based on the <a href="http://commonmark.org" target="_blank" rel="noreferrer">CommonMark</a> specification.
 

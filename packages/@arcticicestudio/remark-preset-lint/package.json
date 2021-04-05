@@ -3,6 +3,13 @@
   "version": "0.3.0",
   "description": "Arctic Ice Studio Markdown code style guide rules as an extensible remark-lint rule preset",
   "author": "Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)",
+  "contributors": [
+    {
+      "name": "Sven Greb",
+      "email": "development@svengreb.de",
+      "url": "https://www.svengreb.de"
+    }
+  ],
   "homepage": "https://github.com/arcticicestudio/styleguide-markdown",
   "repository": {
     "type": "git",
@@ -14,12 +21,13 @@
   },
   "license": "MIT",
   "keywords": [
-    "remark",
-    "lint",
-    "preset",
+    "style",
+    "guide",
     "markdown",
-    "styleguide",
-    "codestyle"
+    "remark",
+    "remark-lint",
+    "rule",
+    "preset"
   ],
   "main": "index.js",
   "files": [
