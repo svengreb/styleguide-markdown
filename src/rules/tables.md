@@ -1,11 +1,11 @@
 ## Prefer Lists
 
-Prefer [lists][lists] and only use tables for small, non-complex and single line content.
+Prefer [lists][] and only use tables for small, non-complex and single line content.
 Complex, large tables are difficult to read in source and most importantly, a pain to modify, indent and also read later e.g. when using
 
 - line breaks within rows
 - very long sentences that must be wrapped
-- document elements like [code blocks][code-blocks] or [blockquotes][blockquotes]
+- document elements like [code blocks][code-blocks] or [blockquotes][]
 - [inline links][links-inline] with long URLs
 
 Lists and subheadings usually suffice to present the same information in a slightly less compact, though much more edit-friendly and more elegant way.

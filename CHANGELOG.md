@@ -42,7 +42,7 @@
 <details>
 <summary><strong>Change unordered marker from asterisk to dash</strong> — #1 ⇄ #2 (⊶ 261fe4cb)</summary>
 
-↠ Added the initial style guide with the [comprehensive base rule set][docs-rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][commonmark] specification.
+↠ Added the initial style guide with the [comprehensive base rule set][docs-rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][] specification.
 
 </details>
 

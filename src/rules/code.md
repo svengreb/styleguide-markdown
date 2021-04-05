@@ -241,9 +241,9 @@ export default Snow;
 
 Don't use it for
 
-- **project or proper names** - e.g [React][react], [GCC][gcc], [Node.js][nodejs], [Golang][golang] or [Rust][rustlang]
-- **libraries** - e.g. [libgit2][], [libc][crates-libc] (Rust Bindings), [glibc][], [glib2][] or [jackson-databind][bintray-jackson-databind] (Java)
-- **packages and modules** - e.g. [react-dom][npm-react-dom], [snowsaw][pypi-snowsaw] or [archlinux-keyring][archlinux-keyring]
+- **project or proper names** - e.g [React][], [GCC][], [Node.js][nodejs], [Go][] or [Rust][].
+- **libraries** - e.g. [libgit2][], [libc][crates-libc] (Rust Bindings), [glibc][], [glib2][] or [jackson-databind][bintray-jackson-databind] (Java).
+- **packages and modules** - e.g. [react-dom][npm-react-dom], [snowsaw][pypi-snowsaw] or [archlinux-keyring][].
 
 [archlinux-keyring]: https://www.archlinux.org/packages/core/any/archlinux-keyring
 [bintray-jackson-databind]: https://bintray.com/bintray/jcenter/com.fasterxml.jackson.core%3Ajackson-databind
@@ -253,7 +253,7 @@ Don't use it for
 [gh-help-gfm_code_syntax_highlighting]: https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting
 [glib2]: https://wiki.gnome.org/Projects/GLib
 [glibc]: https://www.gnu.org/software/libc
-[golang]: https://golang.org
+[go]: https://golang.org
 [libgit2]: https://libgit2.github.com
 [nodejs]: https://nodejs.org
 [npm-react-dom]: https://www.npmjs.com/package/react-dom
@@ -263,4 +263,4 @@ Don't use it for
 [remark-lint-fenced-code-flag]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-fenced-code-flag
 [remark-lint-fenced-code-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-fenced-code-marker
 [remark-lint-no-shell-dollars]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-shell-dollars
-[rustlang]: https://www.rust-lang.org
+[rust]: https://www.rust-lang.org

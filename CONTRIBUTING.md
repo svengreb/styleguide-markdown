@@ -132,7 +132,7 @@ When [reporting a bug](#bug-reports), sometimes even when [suggesting enhancemen
 - …Complete – Provide all parts needed to reproduce the behavior
 - …Verifiable – Test the code you're about to provide to make sure it reproduces the behavior
 
-A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][sscce], a _Short, Self Contained, Correct (Compilable), Example_.
+A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][], a _Short, Self Contained, Correct (Compilable), Example_.
 
 The recommended way for GitHub based projects is to create it as [Gist][gh-gist] or new repository, but of course you can [attach it to issues and pull requests as files][ghd-attach-file], use any free code paste- or file hosting service or paste the code in [Markdown code blocks][ghd-markdown-code-blocks] into the issue.
 

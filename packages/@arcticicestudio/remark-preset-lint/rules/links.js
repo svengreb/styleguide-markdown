@@ -40,6 +40,13 @@ const noAutoLinkWithoutProtocol = require("remark-lint-no-auto-link-without-prot
  */
 const noDuplicateDefinitions = require("remark-lint-no-duplicate-definitions");
 /**
+ * Warn when definitions define the same URL.
+ *
+ * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-defined-urls
+ * @see https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#unique-ids
+ */
+const noDuplicateDefinedURLs = require("remark-lint-no-duplicate-defined-urls");
+/**
  * Disallow empty link and image URLs.
  *
  * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-empty-url
@@ -85,12 +92,26 @@ const noUndefinedReferences = require("remark-lint-no-undefined-references");
  * @see https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#no-unused
  */
 const noUnusedDefinitions = require("remark-lint-no-unused-definitions");
+/**
+ * Warn when full reference images are used that could be collapsed.
+ *
+ * @since 0.4.0
+ * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unneeded-full-reference-image
+ * @see https://arcticicestudio.github.io/styleguide-markdown/rules/images.html#collapsed-reference-links
+ */
+const noUnneededFullReferenceImage = require("remark-lint-no-unneeded-full-reference-image");
+/**
+ * Warn when full reference links are used that could be collapsed.
+ *
+ * @since 0.4.0
+ * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unneeded-full-reference-link
+ * @see https://arcticicestudio.github.io/styleguide-markdown/rules/links.html#collapsed-references
+ */
+const noUnneededFullReferenceLink = require("remark-lint-no-unneeded-full-reference-link");
 
 /**
  * Official remark-lint core rules for link document nodes.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
- * @author Sven Greb <development@svengreb.de>
- * @since 0.1.0
+ *
  * @see https://github.com/remarkjs/remark-lint/blob/main/doc/rules.md#list-of-rules
  */
 module.exports = {
@@ -100,6 +121,7 @@ module.exports = {
     [finalDefinition, ["error"]],
     [noAutoLinkWithoutProtocol, ["warn"]],
     [noDuplicateDefinitions, ["error"]],
+    [noDuplicateDefinedURLs, ["warn"]],
     [noEmptyUrl, ["error"]],
     [noLiteralUrls, false],
     [noReferenceLikeUrl, ["error"]],
@@ -107,5 +129,7 @@ module.exports = {
     [noShortcutReferenceLink, false],
     [noUndefinedReferences, ["error"]],
     [noUnusedDefinitions, ["warn"]],
+    [noUnneededFullReferenceImage, ["warn"]],
+    [noUnneededFullReferenceLink, ["warn"]],
   ],
 };

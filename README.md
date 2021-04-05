@@ -15,7 +15,7 @@ A style guide establishes and enforces style to improve the intelligibility and 
 ### Getting Started
 
 The [project documentation][docs] contains chapters to learn about
-the [comprehensive base rule set][docs-rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][commonmark] specification. It includes rules for all document elements like e.g. [code blocks][docs-rules-code-blocks], [headings][docs-rules-headings] or [lists][docs-rules-lists], defines [naming conventions][docs-rules-naming-conventions] and best practices for [whitespaces][docs-rules-whitespaces], [Raw HTML][docs-rules-raw-html], [emphasizing][docs-rules-emphasis] and [strings][docs-rules-strings].
+the [comprehensive base rule set][docs-rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][] specification. It includes rules for all document elements like e.g. [code blocks][docs-rules-code-blocks], [headings][docs-rules-headings] or [lists][docs-rules-lists], defines [naming conventions][docs-rules-naming-conventions] and best practices for [whitespaces][docs-rules-whitespaces], [Raw HTML][docs-rules-raw-html], [emphasizing][docs-rules-emphasis] and [strings][docs-rules-strings].
 
 The development chapters contain information about the [requirements][docs-dev-requirements] and [how to build][docs-dev-building] the style guide documentation.
 

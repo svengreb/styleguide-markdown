@@ -431,6 +431,74 @@ The [Winter][winter] is sparkling and frozen!
 [winter]: https://the-winter-is-sparkling-and-frozen.io
 ```
 
+## No Duplicates
+
+Prevent definitions that use the same URL.
+
+> remark-lint: [no-duplicate-defined-urls][remark-lint-no-duplicate-defined-urls]
+
+###### Examples
+
+⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
+
+```markdown
+[arctic][]
+[north-pole][]
+
+[arctic]: https://arctic-is-beautiful.io
+[north-pole]: https://arctic-is-beautiful.io
+```
+
+<!-- prettier-ignore-end -->
+
+⇡ **Correct** code for this rule:
+
+```markdown
+[arctic][]
+[north-pole][]
+
+[arctic]: https://arctic-is-beautiful.io
+[north-pole]: https://frozen-nordic-arctic.io
+```
+
+## Collapsed References
+
+Full references (such as `[Winter][winter]`) can also be written as a collapsed reference (`[Winter][]`) if normalizing the reference text yields the label.
+
+> remark-lint: [no-unneeded-full-reference-link][remark-lint-no-unneeded-full-reference-link]
+
+###### Examples
+
+⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
+
+```markdown
+[arctic][arctic]
+[snowflake][snowflake]
+[Winter][winter]
+
+[arctic]: https://arctic-is-beautiful.io
+[snowflake]: https://snow-is-falling-down.io
+[winter]: https://the-winter-is-sparkling-and-frozen.io
+```
+
+<!-- prettier-ignore-end -->
+
+⇡ **Correct** code for this rule:
+
+```markdown
+[arctic][north-pole]
+[snowflake][]
+[Winter][]
+
+[north-pole]: https://arctic-is-beautiful.io
+[snowflake]: https://snow-is-falling-down.io
+[winter]: https://the-winter-is-sparkling-and-frozen.io
+```
+
 ## Autolink Protocol
 
 Always add a valid protocol when using [autolinks][gfm-spec-links-autolinks].
@@ -577,10 +645,12 @@ The [winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and fro
 [remark-lint-definition-spacing]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-definition-spacing
 [remark-lint-final-definition]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-final-definition
 [remark-lint-no-auto-link-without-protocol]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-auto-link-without-protocol
+[remark-lint-no-duplicate-defined-urls]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-defined-urls
 [remark-lint-no-duplicate-definitions]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-definitions
 [remark-lint-no-empty-url]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-empty-url
 [remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-inline-padding
 [remark-lint-no-reference-like-url]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-reference-like-url
 [remark-lint-no-undefined-references]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-undefined-references
+[remark-lint-no-unneeded-full-reference-link]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unneeded-full-reference-link
 [remark-lint-no-unused-definitions]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unused-definitions
 [w3-html5-spec-navigate_fragment_identifier]: https://www.w3.org/TR/html52/browsers.html#navigating-to-a-fragment-identifier

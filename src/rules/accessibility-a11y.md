@@ -1,4 +1,4 @@
-This chapter provides rules to improve the accessibility as documented by the [A11Y][a11y] project.
+This chapter provides rules to improve the accessibility as documented by the [A11Y][] project.
 
 ## Alternative Text
 
