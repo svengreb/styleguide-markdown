@@ -91,7 +91,7 @@
     "remark-lint-no-shell-dollars": "^1.0.1",
     "remark-lint-no-shortcut-reference-image": "^1.0.1",
     "remark-lint-no-shortcut-reference-link": "^1.0.2",
-    "remark-lint-no-table-indentation": "^1.0.1",
+    "remark-lint-no-table-indentation": "^3.0.0",
     "remark-lint-no-tabs": "^1.0.1",
     "remark-lint-no-undefined-references": "^1.0.1",
     "remark-lint-no-unused-definitions": "^1.0.1",
