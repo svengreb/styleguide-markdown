@@ -1,6 +1,6 @@
 ## Italic
 
-Use two (2) underscore `__` marker to generate spans for italic formatted text.
+Use one (1) underscore `_` marker to generate spans for italic formatted text.
 
 > remark-lint: [emphasis-marker][remark-lint-emphasis-marker]
 
@@ -8,20 +8,24 @@ Use two (2) underscore `__` marker to generate spans for italic formatted text.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-_Winter_
-````
+*Winter*
+```
 
 ```markdown
 ___Snow___
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
-__Winter__
-__Snow__
-````
+_Winter_
+_Snow_
+```
 
 ## Bold
 
@@ -33,26 +37,30 @@ Use two (2) asterisk `*` marker to generate spans for bold formatted text.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 *Winter*
-````
+```
 
 ```markdown
 ***Snow***
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 **Winter**
 **Snow**
-````
+```
 
 ## Strikethrough
 
 > Note that [strikethrough][gfm-spec-strikethrough] is an **extension of GFM** and not implemented by all parsers!
 
-Use two (2) tilde `~` marker to generate spans for striked through text.
+Use two (2) tilde `~` marker to generate spans for strikethrough text.
 
 > remark-lint: [emphasis-marker][remark-lint-emphasis-marker]
 
@@ -60,20 +68,24 @@ Use two (2) tilde `~` marker to generate spans for striked through text.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ~Winter~
-````
+```
 
 ```markdown
 ~~~Snow~~~
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 ~~Winter~~
 ~~Snow~~
-````
+```
 
 ## No Header Replacement
 
@@ -85,6 +97,8 @@ Don't use emphasis elements (bold or italics) to introduce a multi line named se
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 **Winter**
 
@@ -93,7 +107,9 @@ The winter has sparkling and frozen elements!
 __Snow__
 
 Snow is falling down!
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -105,7 +121,7 @@ The winter has sparkling and frozen elements!
 ## Snow
 
 Snow is falling down!
-````
+```
 
 ```markdown
 ###### Winter
@@ -115,7 +131,7 @@ The winter has sparkling and frozen elements!
 ###### Snow
 
 Snow is falling down!
-````
+```
 
 ## No Inner Spacing
 
@@ -127,25 +143,29 @@ Don't use inner spaces for any markers.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ** Winter **
 __ Snow __
-````
+```
 
 ```markdown
 **      Winter **
 __ Snow            __
-````
+```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
 ```markdown
 **Winter**
-__Snow__
-````
+**Snow**
+```
 
 [gfm-spec-strikethrough]: https://github.github.com/gfm/#strikethrough-extension-
-[remark-lint-emphasis-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker
-[remark-lint-no-emphasis-as-heading]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-emphasis-as-heading
-[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding
-[remark-lint-strong-marker]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-strong-marker
+[remark-lint-emphasis-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-emphasis-marker
+[remark-lint-no-emphasis-as-heading]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-emphasis-as-heading
+[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-inline-padding
+[remark-lint-strong-marker]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strong-marker

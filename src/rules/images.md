@@ -6,18 +6,22 @@ Prefer absolute URLs instead of relative ones to improve the portability of the 
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ![snowflake icon][snowflake] snowflakes falling down in the winter!
 
 [snowflake]: ../assets/snowflake.png
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
 ![snowflake icon][snowflake] snowflakes falling down in the winter!
 
-[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
+[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/src/assets/snowflake.png
 ```
 
 ## Badges

@@ -8,6 +8,8 @@ Always use [atx-style][atx] headings (not closed) instead of [Setext][setex]. Th
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 Winter
 ======
@@ -25,6 +27,8 @@ No closed ATX styled headings:
 
 ### Snow ###
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -44,6 +48,8 @@ Always surround headers by a single empty line except at the beginning of the fi
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ... snowflakes are falling.
 # Winter
@@ -59,6 +65,8 @@ Sparkling and frozen...
 
 Sparkling and frozen...
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -80,6 +88,8 @@ Always separate the marker character `#` from the actual header content using a 
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 #Winter
 ```
@@ -87,6 +97,8 @@ Always separate the marker character `#` from the actual header content using a 
 ```markdown
 #  Winter
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -106,6 +118,8 @@ Note: The `·` character represents a whitespace character.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 .# Winter
 ```
@@ -113,6 +127,8 @@ Note: The `·` character represents a whitespace character.
 ```markdown
 ·# Winter
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -130,6 +146,8 @@ Avoid using two or more headers with the same content in the same markdown file.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 # Winter
 
@@ -139,6 +157,8 @@ Avoid using two or more headers with the same content in the same markdown file.
 
 ## Snow
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -156,11 +176,13 @@ Avoid using two or more headers with the same content in the same markdown file.
 
 Use an upper case letter as the first letter of a header, unless it is a word that always starts with lowercase letters, e.g. proper names or code snippets. The other letters have the same case they would have in the middle of a sentence.
 
-As an exception, [title case][wikipedia-title_case] can be optionally used for the top-level header. Use this exception sparingly, in cases where typographical perfection is important. Using title case all the time would require too much effort to decide if edge-case words should be upper case or not.
+As an exception, [title case][wiki-title_case] can be optionally used for the top-level header. Use this exception sparingly, in cases where typographical perfection is important. Using title case all the time would require too much effort to decide if edge-case words should be upper case or not.
 
 ###### Examples
 
 ⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
 
 ```markdown
 # winter is sparkling and frozen
@@ -175,6 +197,8 @@ Proper names or code snippets:
 
 # Init
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -202,9 +226,13 @@ Prefer using short header with a maximum length of 80 character (without markers
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 # The winter is sparkling and frozen and soft snowflakes are falling down on the world!
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -224,6 +252,8 @@ Don't use any punctuation at the end of a header e.g. a trailing (semi)colon `;:
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 # Winter: Sparkling
 ```
@@ -236,6 +266,8 @@ Don't use any punctuation at the end of a header e.g. a trailing (semi)colon `;:
 # Winter #
 ```
 
+<!-- prettier-ignore-end -->
+
 ⇡ **Correct** code for this rule:
 
 ```markdown
@@ -245,12 +277,12 @@ Sparkling and frozen.
 ```
 
 [atx]: http://www.aaronsw.com/2002/atx/intro
-[remark-lint-heading-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-heading-style
-[remark-lint-maximum-heading-length]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-heading-length
-[remark-lint-no-duplicate-headings]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings
-[remark-lint-no-duplicate-headings-in-section]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section
-[remark-lint-no-heading-content-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent
-[remark-lint-no-heading-indent]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-indent
-[remark-lint-no-heading-punctuation]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-punctuation
+[remark-lint-heading-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-heading-style
+[remark-lint-maximum-heading-length]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-heading-length
+[remark-lint-no-duplicate-headings-in-section]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-headings-in-section
+[remark-lint-no-duplicate-headings]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-headings
+[remark-lint-no-heading-content-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-content-indent
+[remark-lint-no-heading-indent]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-indent
+[remark-lint-no-heading-punctuation]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-punctuation
 [setex]: http://docutils.sourceforge.net/mirror/setext.html
-[wikipedia-title_case]: https://en.wikipedia.org/wiki/Letter_case#Title_case
+[wiki-title_case]: https://en.wikipedia.org/wiki/Letter_case#Title_case

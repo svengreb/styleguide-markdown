@@ -1,13 +1,15 @@
 {
   "name": "styleguide-markdown",
-  "title": "Styleguide Markdown",
   "version": "0.2.0",
-  "description": "The Arctic Ice Studio Markdown Code Style.",
-  "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "http://arcticicestudio.com"
-  },
+  "description": "Arctic Ice Studio Markdown code style",
+  "author": "Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)",
+  "contributors": [
+    {
+      "name": "Sven Greb",
+      "email": "development@svengreb.de",
+      "url": "https://www.svengreb.de"
+    }
+  ],
   "homepage": "https://arcticicestudio.github.io/styleguide-markdown",
   "repository": {
     "type": "git",
@@ -17,27 +19,44 @@
     "url": "https://github.com/arcticicestudio/styleguide-markdown/issues"
   },
   "license": "MIT",
-  "keywords": [
-    "styleguide",
-    "markdown",
-    "codestyle",
-    "remark",
-    "config",
-    "preset"
-  ],
   "private": true,
+  "engines": {
+    "node": "^15.13.0",
+    "npm": "^7.7.0"
+  },
+  "workspaces": [
+    "packages/@arcticicestudio/*"
+  ],
   "scripts": {
-    "clean": "del build",
-    "docs:build": "gitbook install src && gitbook build src build/docs",
-    "docs:dev": "npm run docs:build && gitbook serve src build/docs",
-    "lint:md": "remark --no-stdout . src/ .github/",
-    "lint": "npm run lint:md",
-    "prepublishOnly": "npm run lint"
+    "clean": "del build/",
+    "docs": "run-s docs:prepare docs:compile",
+    "docs:compile": "gitbook build src build/docs",
+    "docs:dev": "run-s docs:compile docs:serve",
+    "docs:prepare": "gitbook install src",
+    "docs:serve": "gitbook serve src build/docs",
+    "format": "run-s format:pretty format:fix",
+    "format:fix": "eslint --fix .",
+    "format:pretty": "prettier --write .",
+    "lint": "npm-run-all lint:*",
+    "lint:js": "eslint .",
+    "lint:md": "remark --no-stdout . .github/**/*.md",
+    "lint:pretty": "prettier --check .",
+    "prepare": "run-s prepare:*",
+    "prepare:husky": "husky install",
+    "test": "npm --workspaces run test"
   },
   "devDependencies": {
-    "del-cli": "1.1.0",
+    "@arcticicestudio/eslint-config-base": ">=0.9.0 <1.0.0",
+    "del-cli": "^3.0.1",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
     "gitbook-cli": "2.3.2",
-    "remark-cli": "5.0.0",
-    "remark-preset-lint-arcticicestudio": "0.2.0"
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "remark-cli": "^5.0.0"
   }
 }

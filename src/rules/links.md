@@ -13,9 +13,13 @@ This can be one of the three reference link types:
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 [Winter](https://the-winter-is-sparkling-and-frozen.io)
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -39,9 +43,13 @@ If it is necessary to use inline links instead of the preferred [reference links
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 [Winter](https://the-winter-is-sparkling-and-frozen-and-snow-falls-down.io)
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -59,6 +67,8 @@ Always place reference links at the bottom of the document. This keeps the focus
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter-info] is sparkling and frozen!
 
@@ -66,6 +76,8 @@ The [Winter][winter-info] is sparkling and frozen!
 
 Many snowflakes are falling down.
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -85,11 +97,15 @@ Always add a single empty line before the first reference link.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info] are falling.
 [snowflakes-info]: https://in-the-winter-many-snowflakes-are-falling.io
 [winter-info]: https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -110,12 +126,16 @@ Only use lower case letters for reference link IDs. This increases the readabili
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][WinterInfo] is sparkling and frozen! [Snowflakes][snowFlakes-Info] are falling.
 
 [snowFlakes-Info]: https://in-the-winter-many-snowflakes-are-falling.io
 [WinterInfo]: https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -136,6 +156,8 @@ Don't use inner spaces within link IDs.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][ winter-info ] is sparkling and frozen!
 
@@ -144,6 +166,8 @@ The [Winter][ winter-info ] is sparkling and frozen!
 [       snowflakes-info  ]: https://in-the-winter-many-snowflakes-are-falling.io
 [ winter-info ]: https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -164,12 +188,16 @@ Don't use trailing or leading spaces in link titles. Add necessary spaces before
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The[ Winter ][winter-info]is sparkling and frozen![ Snowflakes ][snowflakes-info]are falling.
 
 [snowflakes-info]: https://in-the-winter-many-snowflakes-are-falling.io
 [winter-info]: https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -190,6 +218,8 @@ Only use a single space after the colon of [reference links](#prefer-reference-l
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info] are falling.
 
@@ -203,6 +233,8 @@ The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info]
 [snowflakes-info]:https://in-the-winter-many-snowflakes-are-falling.io
 [winter-info]:https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -223,6 +255,8 @@ It is home for many beautiful animals like snowy owls, arctic foxes, and grizzly
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 [Snowflakes][snowflakes-info] are falling.
 
@@ -237,6 +271,8 @@ Snowballs are made of [1000s of snowflakes][1000-snowball_flakes].
 [arctic-animals]: https://arctic-home-for.animals
 [1000-snowball_flakes]: https://1000-snowball.flakes
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -257,16 +293,19 @@ Snowballs are made of [1000s of snowflakes][1000-snowball_flakes].
 
 ## Reference Link Groups
 
-Use blocks for internal and external reference links separated by one (1) empty line.
+Use one block for internal and external reference links.
 
 ###### Examples
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info] are falling.
 
 [winter-info]: winter/info.md
+
 [snowflakes-info]: https://in-the-winter-many-snowflakes-are-falling.io
 ```
 
@@ -280,6 +319,8 @@ The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info]
 
 [snowflakes-info]: https://in-the-winter-many-snowflakes-are-falling.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -287,7 +328,6 @@ The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info]
 The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info] are falling.
 
 [winter-info]: winter/info.md
-
 [snowflakes-info]: https://in-the-winter-many-snowflakes-are-falling.io
 ```
 
@@ -296,14 +336,16 @@ The [Winter][winter-info] is sparkling and frozen! [Snowflakes][snowflakes-info]
 It is more convenient to always follow the same organization for reference link order to easier find internal and external targets.
 
 1. Internal links group
-  1.1 [full reference links][gfm-spec-links-ref_full]
-  1.2 [collapsed reference links][gfm-spec-links-ref_collapsed]
-  1.2 [short reference links][gfm-spec-links-ref_short]
+   1.1 [full reference links][gfm-spec-links-ref_full]
+   1.2 [collapsed reference links][gfm-spec-links-ref_collapsed]
+   1.2 [short reference links][gfm-spec-links-ref_short]
 2. External links group
 
 ###### Examples
 
 ⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
 
 ```markdown
 The [Winter][winter-info] is sparkling and frozen!
@@ -313,10 +355,11 @@ The [Winter][winter-info] is sparkling and frozen!
 The [Arctic][arctic-animals] is home for many beautiful animals.
 
 [snowflakes]: https://in-the-winter-many-snowflakes-are-falling.io
-
 [arctic-animals]: arctic-animals.md
 [winter-info]: winter/info.md
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -329,7 +372,6 @@ The [Arctic][arctic-animals] is home for many beautiful animals.
 
 [arctic-animals]: arctic-animals.md
 [winter-info]: winter/info.md
-
 [snowflakes]: https://in-the-winter-many-snowflakes-are-falling.io
 ```
 
@@ -343,6 +385,8 @@ Remove unused reference links to improve the overview and maintainability.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter-info] is sparkling and frozen!
 
@@ -350,6 +394,8 @@ The [Winter][winter-info] is sparkling and frozen!
 [snowflakes]: snow/flakes.md
 [winter-info]: winter/info.md
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -369,9 +415,13 @@ Never use references that are not defined.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [Winter][winter] is sparkling and frozen!
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -391,11 +441,15 @@ Always add a valid protocol when using [autolinks][gfm-spec-links-autolinks].
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 www.arcticicestudio.com
 
 arcticicestudio.com
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -423,10 +477,14 @@ Reference link IDs must be unique within a document file.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 [snow]: snow/flakes.md
 [snow]: snow/index.md
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -445,6 +503,8 @@ Don't use links or images with empty URLs.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [winter][winter] is sparkling and frozen!
 
@@ -459,6 +519,8 @@ The [winter]() is sparkling and frozen!
 
 ![snowflake image]()
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -487,11 +549,15 @@ Never use URLs that are also defined reference link identifiers.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The [winter](winter) is sparkling and frozen!
 
 [winter]: https://the-winter-is-sparkling-and-frozen.io
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -503,18 +569,18 @@ The [winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and fro
 
 [gfm-spec-links-autolinks]: https://github.github.com/gfm/#autolinks
 [gfm-spec-links-case_insensitive]: https://github.github.com/gfm/#example-170
-[gfm-spec-links-ref]: https://github.github.com/gfm/#reference-link
 [gfm-spec-links-ref_collapsed]: https://github.github.com/gfm/#collapsed-reference-link
 [gfm-spec-links-ref_full]: https://github.github.com/gfm/#full-reference-link
 [gfm-spec-links-ref_short]: https://github.github.com/gfm/#shortcut-reference-link
-[remark-lint-definition-case]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-definition-case
-[remark-lint-definition-spacing]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-definition-spacing
-[remark-lint-final-definition]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-final-definition
-[remark-lint-no-auto-link-without-protocol]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-auto-link-without-protocol
-[remark-lint-no-duplicate-definitions]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-definitions
-[remark-lint-no-empty-url]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-empty-url
-[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding
-[remark-lint-no-reference-like-url]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-reference-like-url
-[remark-lint-no-undefined-references]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-undefined-references
-[remark-lint-no-unused-definitions]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-unused-definitions
+[gfm-spec-links-ref]: https://github.github.com/gfm/#reference-link
+[remark-lint-definition-case]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-definition-case
+[remark-lint-definition-spacing]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-definition-spacing
+[remark-lint-final-definition]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-final-definition
+[remark-lint-no-auto-link-without-protocol]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-auto-link-without-protocol
+[remark-lint-no-duplicate-definitions]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-definitions
+[remark-lint-no-empty-url]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-empty-url
+[remark-lint-no-inline-padding]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-inline-padding
+[remark-lint-no-reference-like-url]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-reference-like-url
+[remark-lint-no-undefined-references]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-undefined-references
+[remark-lint-no-unused-definitions]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unused-definitions
 [w3-html5-spec-navigate_fragment_identifier]: https://www.w3.org/TR/html52/browsers.html#navigating-to-a-fragment-identifier

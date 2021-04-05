@@ -8,6 +8,8 @@ A horizontal rule must consist of three (3) hyphens (`-`) without spaces.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 -
 ```
@@ -15,7 +17,7 @@ A horizontal rule must consist of three (3) hyphens (`-`) without spaces.
 ```markdown
 --
 
-- - 
+- -
 ```
 
 ```markdown
@@ -23,6 +25,8 @@ A horizontal rule must consist of three (3) hyphens (`-`) without spaces.
 
 - --
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -38,6 +42,8 @@ Make sure that there are no other prepended or appended characters (including wh
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 .---
 ```
@@ -50,9 +56,7 @@ Make sure that there are no other prepended or appended characters (including wh
 ---x
 ```
 
-```markdown
----  
-```
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -68,6 +72,8 @@ Always surround lines by a single empty line except at the beginning of the file
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 ... snowflakes are falling.
 ---
@@ -83,6 +89,8 @@ Sparkling and frozen...
 
 Sparkling and frozen...
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -98,4 +106,4 @@ Sparkling and frozen...
 
 Horizontal rules can be used to separate sections when headers are not applicable or to separate base document elements like a header, body and footer.
 
-[remark-lint-rule-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-rule-style
+[remark-lint-rule-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-rule-style

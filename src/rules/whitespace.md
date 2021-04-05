@@ -10,6 +10,8 @@ Note: The `»` character represents a tab.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The winter has sparkling and frozen elements!
  » This line contains a tab character.
@@ -36,9 +38,11 @@ The winter has sparkling and frozen elements!
 }
 ```
 
+<!-- prettier-ignore-end -->
+
 ## Newline
 
-End files with a single [newline][wikipedia-newline] character. Always use unix-style _LF_ linebreaks (`\n`, denoted as `␊`) and avoid the usage of Microsoft Windows _CRLF_ characters (`\r\n`, denoted as `␍␊`).
+End files with a single [newline][wiki-newline] character. Always use unix-style _LF_ linebreaks (`\n`, denoted as `␊`) and avoid the usage of Microsoft Windows _CRLF_ characters (`\r\n`, denoted as `␍␊`).
 
 > remark-lint: [final-newline][remark-lint-final-newline] and [linebreak-style][remark-lint-linebreak-style]
 
@@ -47,6 +51,8 @@ End files with a single [newline][wikipedia-newline] character. Always use unix-
 Note: The `¬` character represents a line break.
 
 ⇣ **Incorrect** code for this rule:
+
+<!-- prettier-ignore-start -->
 
 ```markdown
 The winter has sparkling and frozen elements!
@@ -68,9 +74,11 @@ Many snowflakes are falling down.¬
 
 ```
 
+<!-- prettier-ignore-end -->
+
 ###### References
 
-- [Wikipedia: _Control Character_][wikipedia-control_character]
+- [Wikipedia: _Control Character_][wiki-control_character]
 
 ## Before Blocks
 
@@ -84,10 +92,14 @@ Note: The `¬` character represents a line break.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The winter has sparkling and frozen elements!
 Many snowflakes are falling down.
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -105,6 +117,8 @@ Use a single space after sentences.
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 Many snowflakes are falling down.  The winter has sparkling and frozen elements!
 ```
@@ -112,6 +126,8 @@ Many snowflakes are falling down.  The winter has sparkling and frozen elements!
 ```markdown
 Many snowflakes are falling down.The winter has sparkling and frozen elements!
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -125,9 +141,9 @@ In contrast to source code, where lines contain statements that can be almost al
 
 Other style guides suggest to use line breaks after the character limit has been reached, but this will lead to deformed rendered output since GFM supports [soft line breaks][gfm-spec-soft_line_breaks]. Therefore, this guide advices to **avoid using a character limit per line for flowing text**, but try to use a maximum line length of 120 characters (including whitespaces) for all other document elements.
 
-Instead of enforcing a maximum line length, users should use [soft line wrapping][wikipedia-line_wrap]:
+Instead of enforcing a maximum line length, users should use [soft line wrapping][wiki-line_wrap]:
 
-- **Soft wrapping allows line lengths to visually adjust automatically with adjustments to the width of the user's window** or margin settings - This is a standard feature of all modern text editors like [Atom][atom-doc-soft_wrap] or [VSCode][vscode-doc-soft_wrap], IDEs like [JetBrains IntelliJ IDEA][jetbrains-intellij-doc-soft_wrap], word processors, and email clients like [Thunderbird][thunderbird].
+- **Soft wrapping allows line lengths to visually adjust automatically with adjustments to the width of the user's window** or margin settings - This is a standard feature of all modern text editors like [VSCode][vscode-doc-soft_wrap] or [Atom][atom-doc-soft_wrap], IDEs like [JetBrains IntelliJ IDEA][jetbrains-intellij-doc-soft_wrap], word processors, and email clients like [Thunderbird][thunderbird].
 - **Using hard wrap inserts actual line breaks in the text at wrap points causing the Markdown to not look like the rendered output** - With soft wrapping the actual text is still on the same line but will be rendered by the application like it's divided into several lines. This **increases the readability** significantly and leads to the same visual result as if a maximum line length with hard line breaks for flowing text would have been used.
 - **Less writer effort** - The author can focus on the content instead of formatting.
 
@@ -139,7 +155,9 @@ Note that the [rule for long strings][strings-line_length] is related to this ru
 
 ⇣ **Incorrect** code for this rule:
 
-`````markdown
+<!-- prettier-ignore-start -->
+
+````markdown
 > The winter and all of its fascinating, sparkling and
 frozen elements and lively, diverse and beautiful wildlife.
 
@@ -150,24 +168,27 @@ arctic foxes, and grizzly bears.
 ```js
 const season = winter && winter.elements && winter.elements.snow && winter.elements.snow.state && winter.elements.snow.state.temperature && winter.elements.snow.state.temperature.celsius;
 ```
-`````
+````
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
-`````markdown
+````markdown
 > The winter and all of its fascinating, sparkling and frozen elements and lively, diverse and beautiful wildlife.
 
 Many snowflakes are falling down. The winter has sparkling and frozen elements! It is home for many beautiful animals like snowy owls, arctic foxes, and grizzly bears.
 
 ```js
-const season = winter
-  && winter.elements
-  && winter.elements.snow
-  && winter.elements.snow.state
-  && winter.elements.snow.state.temperature
-  && winter.elements.snow.state.temperature.celsius;
+const season =
+  winter &&
+  winter.elements &&
+  winter.elements.snow &&
+  winter.elements.snow.state &&
+  winter.elements.snow.state.temperature &&
+  winter.elements.snow.state.temperature.celsius;
 ```
-`````
+````
 
 ## Trailing
 
@@ -181,6 +202,8 @@ Note: The `·` character represents a whitespace and the `¬` character represen
 
 ⇣ **Incorrect** code for this rule:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 The winter has sparkling and frozen elements!··¬
 Many snowflakes are falling down.
@@ -190,6 +213,8 @@ Many snowflakes are falling down.
 The winter has sparkling and frozen elements!¬
 Many snowflakes are falling down.
 ```
+
+<!-- prettier-ignore-end -->
 
 ⇡ **Correct** code for this rule:
 
@@ -203,20 +228,19 @@ The winter has sparkling and frozen elements!¬
 Many snowflakes are falling down.
 ```
 
-[strings-line_length]: strings.md#line-length
-
 [atom-doc-soft_wrap]: http://flight-manual.atom.io/getting-started/sections/atom-basics/#soft-wrap
 [gfm-spec-soft_line_breaks]: https://github.github.com/gfm/#soft-line-breaks
 [jetbrains-intellij-doc-soft_wrap]: https://www.jetbrains.com/help/idea/general.html
-[remark-lint-final-newline]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-final-newline
-[remark-lint-hard-break-spaces]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-hard-break-spaces
-[remark-lint-linebreak-style]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-linebreak-style
-[remark-lint-maximum-line-length]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-line-length
-[remark-lint-no-consecutive-blank-lines]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-consecutive-blank-lines
-[remark-lint-no-missing-blank-lines]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-missing-blank-lines
-[remark-lint-no-tabs]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-tabs
+[remark-lint-final-newline]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-final-newline
+[remark-lint-hard-break-spaces]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-hard-break-spaces
+[remark-lint-linebreak-style]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-linebreak-style
+[remark-lint-maximum-line-length]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-line-length
+[remark-lint-no-consecutive-blank-lines]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-consecutive-blank-lines
+[remark-lint-no-missing-blank-lines]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-missing-blank-lines
+[remark-lint-no-tabs]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-tabs
+[strings-line_length]: strings.md#line-length
 [thunderbird]: https://www.mozilla.org/thunderbird
 [vscode-doc-soft_wrap]: https://code.visualstudio.com/docs/editor/codebasics#_common-questions
-[wikipedia-control_character]: https://en.wikipedia.org/wiki/Control_character
-[wikipedia-line_wrap]: https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap
-[wikipedia-newline]: https://en.wikipedia.org/wiki/Newline
+[wiki-control_character]: https://en.wikipedia.org/wiki/Control_character
+[wiki-line_wrap]: https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap
+[wiki-newline]: https://en.wikipedia.org/wiki/Newline

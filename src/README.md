@@ -1,18 +1,12 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography.svg?sanitize=true"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/master/assets/images/repository-hero.svg?sanitize=true"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square"/></a></p>
+<p align="center">The Arctic Ice Studio Markdown code style.</p>
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg?sanitize=true" width=24 height=24/> <a href="https://www.npmjs.com/package/remark-preset-lint-arcticicestudio"><img src="https://img.shields.io/npm/v/remark-preset-lint-arcticicestudio.svg?style=flat-square&label=remark-preset-lint-arcticicestudio"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://arcticicestudio.github.io/styleguide-markdown" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&logo=read-the-docs&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/blob/master/CHANGELOG.md" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/CHANGELOG.md#010"><img src="https://img.shields.io/badge/Changelog-0.2.0-5E81AC.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/@arcticicestudio/remark-preset-lint" target="_blank" rel="noreferrer"><img src="https://img.shields.io/npm/v/@arcticicestudio/remark-preset-lint.svg?style=flat-square&label=@arcticicestudio/remark-preset-lint&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2Q4ZGVlOSIgZD0iTTEyIDE0SDRhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjhhMiAyIDAgMCAxLTIgMnpNNCAzLjMzMkEuNjcuNjcgMCAwIDAgMy4zMzIgNHY4YzAgLjM2Ny4zLjY2OC42NjguNjY4aDhhLjY3LjY3IDAgMCAwIC42NjgtLjY2OFY0QS42Ny42NyAwIDAgMCAxMiAzLjMzMnptMCAwIi8+PHBhdGggZmlsbD0iI2Q4ZGVlOSIgZD0iTTggNmgyLjY2OHY2LjY2OEg4em0wIDAiLz48L3N2Zz4K"/></a></p>
 
-<p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/styleguide-markdown"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/styleguide-markdown/develop.svg?style=flat-square"/></a></p>
-
-<p align="center">The Arctic Ice Studio Markdown Code Style.</p>
-
----
-
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/assets/styleguide-markdown-banner-typography-badge.svg?sanitize=true" width="40%" /></p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/actions" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/workflow/status/arcticicestudio/styleguide-markdown/ci?style=flat-square&label=CI&logoColor=eceff4&colorA=4c566a&logo=github-actions"/></a></p>
 
 Every major open source project has its own style guide, a set of standards and conventions for the writing and design of code, documentations and assets. It is much easier to understand a large codebase when all the code in it is in a consistent style.
 
@@ -20,48 +14,51 @@ A style guide establishes and enforces style to improve the intelligibility and 
 
 ### Getting Started
 
-This style guide provides the [comprehensive base rule set][rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][commonmark] specification. It includes rules for all document elements like e.g. [code blocks][rules-code-blocks], [headings][rules-headings] or [lists][rules-lists], defines [naming conventions][rules-naming-conventions] and best practices for [whitespaces][rules-whitespaces], [Raw HTML][rules-raw-html], [emphasizing][rules-emphasis] and [strings][rules-strings].
+The [project documentation][docs] contains chapters to learn about
+the [comprehensive base rule set][docs-rules] with support for [GitHub Flavored Markdown][gfm] which is based on the [CommonMark][commonmark] specification. It includes rules for all document elements like e.g. [code blocks][docs-rules-code-blocks], [headings][docs-rules-headings] or [lists][docs-rules-lists], defines [naming conventions][docs-rules-naming-conventions] and best practices for [whitespaces][docs-rules-whitespaces], [Raw HTML][docs-rules-raw-html], [emphasizing][docs-rules-emphasis] and [strings][docs-rules-strings].
 
-The development chapters contain information about the [requirements][dev-requirements] and [how to build][dev-building] this style guide documentation.
+The development chapters contain information about the [requirements][docs-dev-requirements] and [how to build][docs-dev-building] the style guide documentation.
 
-To make sure your code matches this style guide use the official [remark-preset-lint-arcticicestudio][remark-preset-lint-arcticicestudio-ghio] code linter preset for [remark-lint][remark-lint-gh], a plugin for [remark][].
+### Remark Configurations
+
+To follow the rules in a project and ensure that your code matches this style guide use the official extensible code linter rule preset [@arcticicestudio/remark-preset-lint][gh-tree-pkg-remark-preset-lint] for [remark-lint][gh-remarkjs/remark-lint], a plugin for [remark][].
 
 ### Contributing
 
-Read the [contributing guide][dev-contributing] to learn about the development process and how to propose [enhancement suggestions][dev-contributing-enhancements] and [report bugs][dev-contributing-bug-reports], how to [submit pull requests][dev-contributing-pr] and the project's [styleguides][dev-contributing-styleguides], [branch organization][dev-contributing-branch-org] and [versioning][dev-contributing-versioning] model.
+Read the [contributing guide][docs-dev-contributing] to learn about the development process and how to propose [enhancement suggestions][docs-dev-contributing-enhancements] and [report bugs][docs-dev-contributing-bug-reports], how to [submit pull requests][docs-dev-contributing-pr] and the project‘s [style guides][docs-dev-contributing-styleguides], [branch organization][docs-dev-contributing-branch-org] and [versioning][docs-dev-contributing-versioning] model.
 
-The guide also includes information about [minimal, complete, and verifiable examples][dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][dev-contributing-other-feedback].
+The guide also includes information about [minimal, complete, and verifiable examples][docs-dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][docs-dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][docs-dev-contributing-other-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
 
-<p align="center">Copyright &copy; 2018-present Arctic Ice Studio & Sven Greb</p>
+<p align="center">Copyright &copy; 2018-present <a href="https://www.arcticicestudio.com" target="_blank" rel="noreferrer">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank" rel="noreferrer">Sven Greb</a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a></p>
-
-[dev-building]: development/building.md
-[dev-contributing]: development/contributing.md
-[dev-contributing-branch-org]: development/contributing.md#branch-organization
-[dev-contributing-bug-reports]: development/contributing.md#bug-reports
-[dev-contributing-enhancements]: development/contributing.md#enhancement-suggestions
-[dev-contributing-mcve]: development/contributing.md#mcve
-[dev-contributing-other-feedback]: development/contributing.md#give-feedback-on-issues-and-pull-requests
-[dev-contributing-other-improve-issues]: development/contributing.md#improve-issues
-[dev-contributing-pr]: development/contributing.md#pull-requests
-[dev-contributing-styleguides]: development/contributing.md#styleguides
-[dev-contributing-versioning]: development/contributing.md#versioning
-[dev-requirements]: development/requirements.md
-[rules]: rules/index.md
-[rules-code-blocks]: rules/code.md#blocks
-[rules-emphasis]: rules/emphasis.md
-[rules-headings]: rules/headings.md
-[rules-lists]: rules/lists.md
-[rules-naming-conventions]: rules/naming-conventions.md
-[rules-raw-html]: rules/raw-html.md
-[rules-strings]: rules/strings.md
-[rules-whitespaces]: rules/whitespaces.md
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-markdown/blob/master/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 [commonmark]: http://commonmark.org
+[docs-dev-building]: https://arcticicestudio.github.io/styleguide-markdown/development/building.html
+[docs-dev-contributing-branch-org]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#branch-organization
+[docs-dev-contributing-bug-reports]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#bug-reports
+[docs-dev-contributing-enhancements]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#enhancement-suggestions
+[docs-dev-contributing-mcve]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#mcve
+[docs-dev-contributing-other-feedback]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#give-feedback-on-issues-and-pull-requests
+[docs-dev-contributing-other-improve-issues]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#improve-issues
+[docs-dev-contributing-pr]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#pull-requests
+[docs-dev-contributing-styleguides]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#style-guides
+[docs-dev-contributing-versioning]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html#versioning
+[docs-dev-contributing]: https://arcticicestudio.github.io/styleguide-markdown/development/contributing.html
+[docs-dev-requirements]: https://arcticicestudio.github.io/styleguide-markdown/development/requirements.html
+[docs-rules-code-blocks]: https://arcticicestudio.github.io/styleguide-markdown/rules/code.html#blocks
+[docs-rules-emphasis]: https://arcticicestudio.github.io/styleguide-markdown/rules/emphasis.html
+[docs-rules-headings]: https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html
+[docs-rules-lists]: https://arcticicestudio.github.io/styleguide-markdown/rules/lists.html
+[docs-rules-naming-conventions]: https://arcticicestudio.github.io/styleguide-markdown/rules/naming-conventions.html
+[docs-rules-raw-html]: https://arcticicestudio.github.io/styleguide-markdown/rules/raw-html.html
+[docs-rules-strings]: https://arcticicestudio.github.io/styleguide-markdown/rules/strings.html
+[docs-rules-whitespaces]: https://arcticicestudio.github.io/styleguide-markdown/rules/whitespaces.html
+[docs-rules]: https://arcticicestudio.github.io/styleguide-markdown/rules/index.html
+[docs]: https://arcticicestudio.github.io/styleguide-markdown
 [gfm]: https://github.github.com/gfm
+[gh-remarkjs/remark-lint]: https://github.com/remarkjs/remark-lint
+[gh-tree-pkg-remark-preset-lint]: https://github.com/arcticicestudio/styleguide-markdown/tree/master/packages/@arcticicestudio/remark-preset-lint
 [remark]: https://remark.js.org
-[remark-lint-gh]: https://github.com/remarkjs/remark-lint
-[remark-preset-lint-arcticicestudio-ghio]: https://arcticicestudio.github.io/remark-preset-lint-arcticicestudio

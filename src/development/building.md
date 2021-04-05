@@ -20,6 +20,5 @@ To start the local hot reload server with browser live reload, using the default
 npm run docs:dev
 ```
 
-[requirements]: requirements.md
-
 [ci-circle]: https://circleci.com/gh/arcticicestudio/styleguide-markdown
+[requirements]: requirements.md
