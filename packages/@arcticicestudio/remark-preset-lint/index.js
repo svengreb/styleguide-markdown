@@ -6,6 +6,7 @@
 
 /**
  * Arctic Ice Studio Markdown Style Guide rules as an extensible remark-lint rule preset.
+ *
  * @version 0.3.0
  * @license MIT
  * @author Arctic Ice Studio <development@arcticicestudio.com>
