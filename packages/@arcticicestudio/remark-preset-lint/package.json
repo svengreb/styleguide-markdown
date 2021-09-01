@@ -79,7 +79,7 @@
     "remark-lint-no-file-name-consecutive-dashes": "^1.0.5",
     "remark-lint-no-file-name-irregular-characters": "^1.0.5",
     "remark-lint-no-file-name-mixed-case": "^1.0.5",
-    "remark-lint-no-file-name-outer-dashes": "^1.0.6",
+    "remark-lint-no-file-name-outer-dashes": "^2.0.1",
     "remark-lint-no-heading-content-indent": "^3.0.0",
     "remark-lint-no-heading-indent": "^3.0.0",
     "remark-lint-no-heading-like-paragraph": "^2.0.1",
