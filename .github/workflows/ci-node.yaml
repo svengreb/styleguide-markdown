@@ -35,7 +35,7 @@ jobs:
           echo "Git Ref: $GITHUB_REF"
           echo "Workflow Actor: $GITHUB_ACTOR"
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Node.js version 16
         uses: actions/setup-node@v2.4.1
         with:
