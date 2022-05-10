@@ -21,8 +21,8 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "^15.13.0",
-    "npm": "^7.7.0"
+    "node": ">=15.13",
+    "npm": ">=7.7"
   },
   "workspaces": [
     "packages/@arcticicestudio/*"
@@ -37,26 +37,28 @@
     "format": "run-s format:pretty format:fix",
     "format:fix": "eslint --fix .",
     "format:pretty": "prettier --write .",
-    "lint": "npm-run-all lint:*",
+    "lint": "run-s lint:*",
+    "lint:ci": "run-s lint:md lint:ci:*",
+    "lint:ci:pretty": "prettier --loglevel silent --check .",
+    "lint:md": "remark --no-stdout . \".github/**/*.md\"",
     "lint:js": "eslint .",
-    "lint:md": "remark --no-stdout . .github/**/*.md",
     "lint:pretty": "prettier --check .",
     "prepare": "run-s prepare:*",
     "prepare:husky": "husky install",
     "test": "npm --workspaces run test"
   },
   "devDependencies": {
-    "@arcticicestudio/eslint-config-base": ">=0.9.0 <1.0.0",
+    "@arcticicestudio/eslint-config-base": ">=0.11.0 <1.0.0",
     "del-cli": "^3.0.1",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
     "gitbook-cli": "2.3.2",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.4",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.2.1",
-    "remark-cli": "^9.0.0"
+    "prettier": "^2.4.1",
+    "remark-cli": "^10.0.1"
   }
 }
