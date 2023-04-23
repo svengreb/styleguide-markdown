@@ -1,22 +1,19 @@
 {
-  "name": "styleguide-markdown",
+  "name": "@svengreb/styleguide-markdown",
   "version": "0.4.0",
-  "description": "Arctic Ice Studio Markdown code style",
-  "author": "Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)",
-  "contributors": [
-    {
-      "name": "Sven Greb",
-      "email": "development@svengreb.de",
-      "url": "https://www.svengreb.de"
-    }
-  ],
-  "homepage": "https://arcticicestudio.github.io/styleguide-markdown",
+  "description": "An opinionated, yet universally applicable Markdown code style guide",
+  "author": {
+    "name": "Sven Greb",
+    "email": "development@svengreb.de",
+    "url": "https://www.svengreb.de"
+  },
+  "homepage": "https://github.com/svengreb/styleguide-markdown",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticicestudio/styleguide-markdown.git"
+    "url": "git+https://github.com/svengreb/styleguide-markdown.git"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/styleguide-markdown/issues"
+    "url": "https://github.com/svengreb/styleguide-markdown/issues"
   },
   "license": "MIT",
   "private": true,
@@ -25,40 +22,33 @@
     "npm": ">=7.7"
   },
   "workspaces": [
-    "packages/@arcticicestudio/*"
+    "packages/@svengreb/*"
   ],
   "scripts": {
-    "clean": "del build/",
-    "docs": "run-s docs:prepare docs:compile",
-    "docs:compile": "gitbook build src build/docs",
-    "docs:dev": "run-s docs:compile docs:serve",
-    "docs:prepare": "gitbook install src",
-    "docs:serve": "gitbook serve src build/docs",
-    "format": "run-s format:pretty format:fix",
-    "format:fix": "eslint --fix .",
-    "format:pretty": "prettier --write .",
-    "lint": "run-s lint:*",
-    "lint:ci": "run-s lint:md lint:ci:*",
-    "lint:ci:pretty": "prettier --loglevel silent --check .",
+    "format": "run-s format:*",
+    "format:js": "eslint --fix .",
+    "format:pretty": "prettier --ignore-unknown --no-editorconfig --write \"**\"",
+    "lint": "run-s lint:js lint:md lint:pretty",
+    "lint:ci": "run-s --continue-on-error lint:js lint:md lint:ci:pretty",
+    "lint:ci:pretty": "prettier --check --ignore-unknown --loglevel silent --no-editorconfig --no-error-on-unmatched-pattern \"**\"",
     "lint:js": "eslint .",
-    "lint:md": "remark --no-stdout . \".github/**/*.md\"",
-    "lint:pretty": "prettier --check .",
+    "lint:md": "remark --no-stdout . .github/",
+    "lint:pretty": "prettier --check --ignore-unknown --no-editorconfig \"**\"",
     "prepare": "run-s prepare:*",
     "prepare:husky": "husky install",
     "test": "npm --workspaces run test"
   },
   "devDependencies": {
     "@arcticicestudio/eslint-config-base": ">=0.11.0 <1.0.0",
-    "del-cli": "^3.0.1",
-    "eslint": "^7.23.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "gitbook-cli": "2.3.2",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.0.4",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
-    "remark-cli": "^10.0.1"
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.7",
+    "prettier-plugin-sh": "0.12.8",
+    "remark-cli": "10.0.1"
   }
 }

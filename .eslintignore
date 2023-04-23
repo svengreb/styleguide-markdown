@@ -1,11 +1,14 @@
-# Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
-# This source code is licensed under the MIT license found in the LICENSE file.
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Path match pattern to ignore specific files and directories.
-# See https://eslint.org/docs/user-guide/configuring/ignoring-code for more details.
+# Path match pattern to ignore (i.e. not lint) certain files and folders.
+# References:
+#   1. https://eslint.org/docs/latest/use/configure/ignore
 
-build/*
-**/node_modules/*
-!.eslintrc.js
+node_modules/
+
+# Explicitly include specific "dotfiles".
+# ESLint automatically applies ignore pattern for "dotfiles" by default to prevent accidentally lint over paths like
+# `.git` or any other critical paths.
+!**/.eslintrc.js
 !.remarkrc.js
