@@ -1,6 +1,5 @@
-# Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
-# This source code is licensed under the MIT license found in the LICENSE file.
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
 # Path match pattern to intentionally ignore untracked files and directories.
 # See https://git-scm.com/docs/gitignore for more details.
@@ -8,9 +7,4 @@
 # +---------+
 # + Node.js +
 # +---------+
-**/node_modules/
-
-# +-------------------+
-# + Project Structure +
-# +-------------------+
-build/
+node_modules/

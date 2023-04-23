@@ -1,10 +1,7 @@
-# Copyright (c) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
-# This source code is licensed under the MIT license found in the LICENSE file.
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
 # Path match pattern to ignore when searching for files.
 # See https://github.com/unifiedjs/unified-engine/blob/HEAD/doc/ignore.md for more details.
 
-# Important: Directories must have no "asterisk" wildcard character at the path end,
-# otherwise the pattern won't match!
-**/node_modules/
+node_modules/

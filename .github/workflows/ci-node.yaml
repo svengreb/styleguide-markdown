@@ -1,8 +1,10 @@
-# Copyright (c) 2018-present Sven Greb <development@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
 # This source code is licensed under the MIT license found in the LICENSE file.
 
 # GitHub Action Workflow for continuous integration jobs.
-# See https://docs.github.com/en/actions and https://github.com/features/actions for more details.
+# References:
+#   1. https://docs.github.com/en/actions
+#   2. https://github.com/features/actions
 
 name: ci-node
 on:
@@ -12,7 +14,6 @@ on:
       - "**.json"
       - "**.md"
       - "**.yaml"
-      - "**.yml"
     branches:
       - main
     tags:
@@ -23,7 +24,6 @@ on:
       - "**.json"
       - "**.md"
       - "**.yaml"
-      - "**.yml"
 
 jobs:
   lint:
