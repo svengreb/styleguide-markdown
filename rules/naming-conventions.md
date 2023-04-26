@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## File Extension
 
 Always use `.md` file extension also for files with [GFM syntax][1].

@@ -3,6 +3,25 @@
  * This source code is licensed under the MIT license found in the license file.
  */
 
+import remarkLint from "remark-lint";
+
+/* eslint-disable import/extensions */
+import blockquotes from "./rules/blockquotes.js";
+import code from "./rules/code.js";
+import emphasis from "./rules/emphasis.js";
+import headings from "./rules/headings.js";
+import horizontalRules from "./rules/horizontal-rules.js";
+import links from "./rules/links.js";
+import lists from "./rules/lists.js";
+import namingConventions from "./rules/naming-conventions.js";
+import paragraphs from "./rules/paragraphs.js";
+import rawHTML from "./rules/raw-html.js";
+import strings from "./rules/strings.js";
+import support from "./rules/support.js";
+import tables from "./rules/tables.js";
+import whitespace from "./rules/whitespace.js";
+/* eslint-enable import/extensions */
+
 /**
  * An opinionated, yet universally applicable Markdown code style guide rules as an extensible remark-lint rule preset.
  * @version 0.4.0
@@ -14,22 +33,24 @@
  * @see https://github.com/remarkjs/remark-lint/blob/main/doc/rules.md#list-of-rules
  * @see https://github.com/remarkjs/remark-lint#configuring-remark-lint
  */
-module.exports = {
+const preset = {
   plugins: [
-    "remark-lint",
-    "./rules/blockquotes",
-    "./rules/code",
-    "./rules/emphasis",
-    "./rules/headings",
-    "./rules/horizontal-rules",
-    "./rules/links",
-    "./rules/lists",
-    "./rules/naming-conventions",
-    "./rules/paragraphs",
-    "./rules/raw-html",
-    "./rules/strings",
-    "./rules/support",
-    "./rules/tables",
-    "./rules/whitespace",
-  ].map(require.resolve),
+    remarkLint,
+    blockquotes,
+    code,
+    emphasis,
+    headings,
+    horizontalRules,
+    links,
+    lists,
+    namingConventions,
+    paragraphs,
+    rawHTML,
+    strings,
+    support,
+    tables,
+    whitespace,
+  ],
 };
+
+export default preset;

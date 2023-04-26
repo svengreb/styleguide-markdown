@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Prefer Lists
 
 Prefer [lists][4] and only use tables for small, non-complex and single line content.

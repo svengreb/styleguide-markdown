@@ -8,10 +8,7 @@
  * @see https://github.com/remarkjs/remark-lint
  * @see https://remark.js.org
  */
-module.exports = {
-  plugins: [
-    "./packages/@svengreb/remark-preset-lint/index.js",
-    /* Disabled to suppress warnings about duplicate "Example" headings. */
-    ["remark-lint-no-duplicate-headings", false],
-  ],
+
+export default {
+  plugins: ["./packages/@svengreb/remark-preset-lint/index.js"],
 };

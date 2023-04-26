@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Marker Character Style
 
 A horizontal rule must consist of three (3) hyphens (`-`) without spaces.

@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Absolute URLs
 
 Prefer absolute URLs instead of relative ones to improve the portability of the document.

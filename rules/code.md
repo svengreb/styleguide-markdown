@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Blocks
 
 Avoid indentation based code blocks, use [fenced code blocks][4] for multi line code. This prevents malformed rendered output due to wrong indentation errors, increases the readability and allows the usage of [language syntax highlighting][5].

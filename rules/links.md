@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Prefer Reference Links
 
 Always use [reference links][6] instead of [inline](#inline) links except for inner anchor links ([fragment identifiers][19]).

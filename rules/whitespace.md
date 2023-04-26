@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Indentation Character
 
 Always use spaces characters where two (2) spaces are used for indentation. **The usage of tab characters is disallowed**. A tab could be a different number of columns depending on the environment, but a space is always one column. Adhering to this rule increases the code readability and maintainability significantly.

@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 > Please prefer standard Markdown syntax wherever possible and only use HTML if you can't accomplish the goal with the Markdown syntax! Raw HTML reduces the readability and portability, but can improve the design, layout and overview of rendered documents.
 > Anyway, consider to **use raw HTML sparingly and only if necessary**!
 

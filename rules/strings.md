@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Quotes
 
 Use double quotes `""` for strings:
