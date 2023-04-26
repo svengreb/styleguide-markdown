@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## ATX Style
 
 Always use [atx-style][1] headings (not closed) instead of [Setext][9]. The level can be easily seen and the number of characters must not match in both lines. ATX also works for all levels, while Setex only goes up to level 2.

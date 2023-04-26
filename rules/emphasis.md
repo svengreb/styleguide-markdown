@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Italic
 
 Use one (1) underscore `_` marker to generate spans for italic formatted text.

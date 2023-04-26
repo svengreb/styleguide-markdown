@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Unordered Marker
 
 Use dashes `-` as marker.

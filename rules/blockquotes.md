@@ -1,3 +1,5 @@
+<!--lint disable no-duplicate-headings-->
+
 ## Indentation
 
 Always separate the marker `>` from the actual content using a single whitespace.

@@ -31,7 +31,7 @@
     "lint": "run-s lint:js lint:md lint:pretty",
     "lint:ci": "run-s --continue-on-error lint:js lint:md lint:ci:pretty",
     "lint:ci:pretty": "prettier --check --ignore-unknown --loglevel silent --no-editorconfig --no-error-on-unmatched-pattern \"**\"",
-    "lint:js": "eslint .",
+    "lint:js": "eslint --ext js,mjs .",
     "lint:md": "remark --no-stdout . .github/",
     "lint:pretty": "prettier --check --ignore-unknown --no-editorconfig \"**\"",
     "prepare": "run-s prepare:*",
@@ -45,10 +45,10 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
-    "lint-staged": "13.2.1",
+    "lint-staged": "13.2.2",
     "npm-run-all": "4.1.5",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "prettier-plugin-sh": "0.12.8",
-    "remark-cli": "10.0.1"
+    "remark-cli": "11.0.0"
   }
 }

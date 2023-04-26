@@ -3,33 +3,21 @@
  * This source code is licensed under the MIT license found in the license file.
  */
 
-/**
- * Adds support for Pandoc footnotes
- * @since 0.4.0
- * @see https://github.com/remarkjs/remark-footnotes
- * @see https://pandoc.org/
- */
-const footnotes = require("remark-footnotes");
-/**
- * Adds support for YAML and TOML frontmatter.
- * @since 0.3.0
- * @see http://yaml.org
- * @see https://github.com/toml-lang/toml
- */
-const frontmatter = require("remark-frontmatter");
-/**
- * Adds support for "GitHub Flavored Markdown".
- * @since 0.4.0
- * @see https://github.com/remarkjs/remark-gfm
- * @see https://github.github.com/gfm
- */
-const gfm = require("remark-gfm");
+import footnotes from "remark-footnotes";
+import frontmatter from "remark-frontmatter";
+import gfm from "remark-gfm";
 
 /**
  * Support for plugins of specification addons and variants.
  */
-module.exports = {
+const support = {
   plugins: [
+    /**
+     * Adds support for Pandoc footnotes
+     * @since 0.4.0
+     * @see https://github.com/remarkjs/remark-footnotes
+     * @see https://pandoc.org
+     */
     [
       footnotes,
       {
@@ -37,7 +25,19 @@ module.exports = {
         inlineNotes: true,
       },
     ],
+    /**
+     * Adds support for YAML and TOML frontmatter.
+     * @since 0.3.0
+     * @see http://yaml.org
+     * @see https://github.com/toml-lang/toml
+     */
     [frontmatter, ["toml", "yaml"]],
+    /**
+     * Adds support for "GitHub Flavored Markdown".
+     * @since 0.4.0
+     * @see https://github.com/remarkjs/remark-gfm
+     * @see https://github.github.com/gfm
+     */
     [
       gfm,
       {
@@ -52,3 +52,5 @@ module.exports = {
     ],
   ],
 };
+
+export default support;
