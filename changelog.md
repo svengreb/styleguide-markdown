@@ -23,6 +23,141 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.5.0
+
+![Release Date: 2023-04-27](https://img.shields.io/static/v1?style=flat-square&label=Release%20Date&message=2023-04-27&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1?style=flat-square&label=Project%20Board&message=0.5.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/users/svengreb/projects/10) [![Milestone](https://img.shields.io/static/v1?style=flat-square&label=Milestone&message=0.5.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/svengreb/styleguide-markdown/milestones/4)
+
+⇅ [Show all commits][34]
+
+This version [migrates this repository to the `@svengreb` GitHub account and npm package scope][58] and updates to [`remark-cli` major version `11`][59].
+
+## Improvements
+
+<details>
+<summary><strong>Update to <code>tmpl</code> template repository version <code>0.11.0</code></strong> — #61 ⇄ #62 (⊶ 1641a0b1)</summary>
+
+→ Updated to [`tmpl` version `0.11.0`][35], including the versions in between starting from [0.10.0][36]:
+
+1. [Optimized GitHub action workflow scope][37].
+2. [Updated Node.js packages & GitHub actions][38] [^2] [^3].
+3. [Opts-in the Dependabot version update configuration][39].
+
+This also includes changes required for any linter matches.
+
+</details>
+
+<details>
+<summary><strong><code>svengreb</code> GitHub account and <code>@svengreb</code> npm package scope migration</strong> — #63 ⇄ #64 (⊶ a49a8084)</summary>
+
+→ With [the retirement of the _Arctic Ice Studio_ personal & Nord project brand][40] this project also moved to the _real-in-person_ identity “Sven Greb“ both in the context of the repository to [the `svengreb` GitHub account][41] and the `@svengreb` npm package scope.
+During this migration the only npm package [`@arcticicestudio/remark-preset-lint`][25] has been deprecated in favor of the new and upcoming [`@svengreb/remark-preset-lint`][43] that has been published afterwards.
+
+Also [the previous visual representation of this style guide][45] through the way too outdated and deprecated [GitBook][44] major version `2` has been unpublished and removed. The documentations and references have been updated to use the GitHub repository with the Markdown rendering instead for now until a custom website has been implemented using a modern _TechStack_ like [Next.js][46].
+
+</details>
+
+<details>
+<summary><strong>Update to <code>remark-cli</code> version <code>11.0.0</code></strong> — #65 ⇄ #66 (⊶ 57d2f2c8)</summary>
+
+<p align="center">
+  <picture>
+    <!-- Source: https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true-->
+    <img src="https://user-images.githubusercontent.com/7836623/113579731-fd719300-9624-11eb-886e-871189e61eb5.png" width="75%" />
+  </picture>
+</p>
+
+→ Updated to the [currently latest `remark-cli` major version `11`][47] which comes with minimal breaking changes and does not require rules-based migration steps.
+This includes updates to the used packages…
+
+- [`remark-footnotes`][14] — `^1.0.0` → [major version `4`][53]
+  - Now [supports ESM][51].
+- [`remark-frontmatter`][52] — `^1.0.0` → [major version `4`][54]
+  - Now [supports ESM][51].
+- [`remark-gfm`][15] — `^1.0.0` → [major version `3`][49]
+  - Now [supports ESM][51].
+  - Added support for [GFM footnotes][50].
+- [`remark-lint`][21] — `^8.0.0` → [major version `9`][56]
+  - Now [supports ESM][51].
+
+The following plugins now also [support ESM][51]:
+
+- `remark-lint-blockquote-indentation`
+- `remark-lint-checkbox-character-style`
+- `remark-lint-checkbox-content-indent`
+- `remark-lint-code-block-style`
+- `remark-lint-definition-case`
+- `remark-lint-definition-spacing`
+- `remark-lint-emphasis-marker`
+- `remark-lint-fenced-code-flag`
+- `remark-lint-fenced-code-marker`
+- `remark-lint-file-extension`
+- `remark-lint-final-definition`
+- `remark-lint-final-newline`
+- `remark-lint-first-heading-level`
+- `remark-lint-hard-break-spaces`
+- `remark-lint-heading-increment`
+- `remark-lint-heading-style`
+- `remark-lint-linebreak-style`
+- `remark-lint-link-title-style`
+- `remark-lint-list-item-bullet-indent`
+- `remark-lint-list-item-content-indent`
+- `remark-lint-list-item-indent`
+- `remark-lint-list-item-spacing`
+- `remark-lint-maximum-heading-length`
+- `remark-lint-maximum-line-length`
+- `remark-lint-no-auto-link-without-protocol`
+- `remark-lint-no-blockquote-without-marker`
+- `remark-lint-no-consecutive-blank-lines`
+- `remark-lint-no-duplicate-defined-urls`
+- `remark-lint-no-duplicate-definitions`
+- `remark-lint-no-duplicate-headings-in-section`
+- `remark-lint-no-duplicate-headings`
+- `remark-lint-no-emphasis-as-heading`
+- `remark-lint-no-empty-url`
+- `remark-lint-no-file-name-articles`
+- `remark-lint-no-file-name-consecutive-dashes`
+- `remark-lint-no-file-name-irregular-characters`
+- `remark-lint-no-file-name-mixed-case`
+- `remark-lint-no-file-name-outer-dashes`
+- `remark-lint-no-heading-content-indent`
+- `remark-lint-no-heading-indent`
+- `remark-lint-no-heading-like-paragraph`
+- `remark-lint-no-heading-punctuation`
+- `remark-lint-no-html`
+- `remark-lint-no-inline-padding`
+- `remark-lint-no-literal-urls`
+- `remark-lint-no-missing-blank-lines`
+- `remark-lint-no-multiple-toplevel-headings`
+- `remark-lint-no-paragraph-content-indent`
+- `remark-lint-no-reference-like-url`
+- `remark-lint-no-shell-dollars`
+- `remark-lint-no-shortcut-reference-image`
+- `remark-lint-no-shortcut-reference-link`
+- `remark-lint-no-table-indentation`
+- `remark-lint-no-tabs`
+- `remark-lint-no-undefined-references`
+- `remark-lint-no-unneeded-full-reference-image`
+- `remark-lint-no-unneeded-full-reference-link`
+- `remark-lint-no-unused-definitions`
+- `remark-lint-ordered-list-marker-style`
+- `remark-lint-ordered-list-marker-value`
+- `remark-lint-rule-style`
+- `remark-lint-strikethrough-marker`
+- `remark-lint-strong-marker`
+- `remark-lint-table-cell-padding`
+- `remark-lint-table-pipe-alignment`
+- `remark-lint-table-pipes`
+- `remark-lint-unordered-list-marker-style`
+
+</details>
+
+<details>
+<summary><strong>Support for <code>remark-lint-strikethrough-marker</code></strong> — #67 ⇄ #68 (⊶ 154b026e)</summary>
+
+→ To warn when the number of strikethrough markers is inconsistent and does not use two strikethrough markers (`~~`) the [`remark-lint-strikethrough-marker`][57] has been added to support such checks.
+
+</details>
+
 # 0.4.0
 
 ![Release Date: 2021-04-06](https://img.shields.io/static/v1?style=flat-square&label=Release%20Date&message=2021-04-06&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1?style=flat-square&label=Project%20Board&message=0.4.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/users/svengreb/projects/10) [![Milestone](https://img.shields.io/static/v1?style=flat-square&label=Milestone&message=0.4.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/svengreb/styleguide-markdown/milestones/3)
@@ -257,6 +392,10 @@ otherwise Markdown elements are not parsed and rendered!
 [1]: https://github.github.com/gfm
 [2]: https://commonmark.org
 [3]: https://github.com/svengreb/styleguide-markdown/blob/main/rules/index.md
+[25]: https://www.npmjs.com/package/@arcticicestudio/remark-preset-lint
+[14]: https://github.com/remarkjs/remark-footnotes
+[15]: https://github.com/remarkjs/remark-gfm
+[21]: https://github.com/remarkjs/remark-lint
 
 <!-- v0.1.0 -->
 
@@ -276,18 +415,14 @@ otherwise Markdown elements are not parsed and rendered!
 [11]: https://docs.github.com/en/get-started/quickstart/github-flow
 [12]: https://github.com/micromark/micromark
 [13]: https://github.com/remarkjs/remark/compare/remark-cli@5.0.0...remark-cli@9.0.0
-[14]: https://github.com/remarkjs/remark-footnotes
-[15]: https://github.com/remarkjs/remark-gfm
 [16]: https://github.com/remarkjs/remark-lint/compare/6.0.0...8.0.0
 [17]: https://github.com/remarkjs/remark-lint/releases/tag/8.0.0
 [18]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-duplicate-defined-urls
 [19]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unneeded-full-reference-image
 [20]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-unneeded-full-reference-link
-[21]: https://github.com/remarkjs/remark-lint
 [22]: https://github.com/remarkjs/remark/releases/tag/remark-cli%409.0.0
 [23]: https://github.com/remarkjs/remark/releases/tag/13.0.0
 [24]: https://github.com/remarkjs/remark
-[25]: https://www.npmjs.com/package/@arcticicestudio/remark-preset-lint
 [26]: https://docs.npmjs.com/cli/v9/commands/npm-deprecate
 [27]: https://docs.npmjs.com/about-scopes
 [28]: https://pandoc.org
@@ -297,6 +432,41 @@ otherwise Markdown elements are not parsed and rendered!
 [31]: https://github.com/svengreb/tmpl
 [33]: https://classic.yarnpkg.com/en/docs/workspaces
 
+<!-- v0.5.0 -->
+
+[34]: https://github.com/svengreb/styleguide-markdown/compare/v0.4.0...v0.5.0
+[35]: https://github.com/svengreb/tmpl/releases/tag/v0.11.0
+[36]: https://github.com/svengreb/tmpl/releases/tag/v0.10.0
+[37]: https://github.com/svengreb/tmpl/issues/84
+[38]: https://github.com/svengreb/tmpl/issues/86
+[39]: https://github.com/svengreb/tmpl/issues/94
+[40]: https://github.com/orgs/nordtheme/discussions/183#retire-arctic-ice-studio-as-nord-brand
+[41]: https://github.com/svengreb
+[43]: https://www.npmjs.com/package/@svengreb/remark-preset-lint
+[44]: https://www.gitbook.com
+[45]: https://arcticicestudio.github.io/styleguide-markdown
+[46]: https://nextjs.org
+[47]: https://github.com/remarkjs/remark/releases/tag/remark-cli%4011.0.0
+[49]: https://github.com/remarkjs/remark-gfm/releases/tag/3.0.0
+[50]: https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields
+[51]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+[52]: https://github.com/remarkjs/remark-frontmatter
+[53]: https://github.com/remarkjs/remark-footnotes/releases/tag/4.0.0
+[54]: https://github.com/remarkjs/remark-frontmatter/releases/tag/4.0.0
+[56]: https://github.com/remarkjs/remark-frontmatter/releases/tag/9.0.0
+[57]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strikethrough-marker
+[58]: https://github.com/svengreb/styleguide-markdown/issues/63
+[59]: https://github.com/svengreb/styleguide-markdown/issues/65
+
+<!-- +--- Footnotes +--- -->
+
 <!--lint disable no-duplicate-definitions-->
 
+<!-- v0.4.0 -->
+
 [^1]: https://trunkbaseddevelopment.com/monorepos
+
+<!-- v0.5.0 -->
+
+[^2]: https://github.com/svengreb/tmpl/issues/78
+[^3]: https://github.com/svengreb/tmpl/issues/83

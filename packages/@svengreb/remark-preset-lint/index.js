@@ -24,7 +24,7 @@ import whitespace from "./rules/whitespace.js";
 
 /**
  * An opinionated, yet universally applicable Markdown code style guide rules as an extensible remark-lint rule preset.
- * @version 0.4.0
+ * @version 0.5.0
  * @license MIT
  * @author Sven Greb <development@svengreb.de>
  * @copyright 2016-present Sven Greb <development@svengreb.de>

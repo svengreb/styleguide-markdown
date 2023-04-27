@@ -53,6 +53,7 @@ const support = {
     ],
     /**
      * Warn when the number of strikethrough markers is inconsistent and does not use two strikethrough markers.
+     * @since 0.5.0
      * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strikethrough-marker
      * @see https://github.com/svengreb/styleguide-markdown/blob/main/rules/emphasis.md#strikethrough
      */
