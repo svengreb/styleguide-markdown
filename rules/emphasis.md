@@ -64,7 +64,7 @@ Use two (2) asterisk `*` marker to generate spans for bold formatted text.
 
 Use two (2) tilde `~` marker to generate spans for strikethrough text.
 
-> remark-lint: [emphasis-marker][2]
+> remark-lint: [strikethrough-marker][6], [emphasis-marker][2]
 
 ###### Examples
 
@@ -171,3 +171,4 @@ __ Snow            __
 [3]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-emphasis-as-heading
 [4]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-inline-padding
 [5]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strong-marker
+[6]: https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strikethrough-marker

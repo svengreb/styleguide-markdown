@@ -6,6 +6,7 @@
 import footnotes from "remark-footnotes";
 import frontmatter from "remark-frontmatter";
 import gfm from "remark-gfm";
+import strikethroughMarker from "remark-lint-strikethrough-marker";
 
 /**
  * Support for plugins of specification addons and variants.
@@ -50,6 +51,12 @@ const support = {
         tablePipeAlign: true,
       },
     ],
+    /**
+     * Warn when the number of strikethrough markers is inconsistent and does not use two strikethrough markers.
+     * @see https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-strikethrough-marker
+     * @see https://github.com/svengreb/styleguide-markdown/blob/main/rules/emphasis.md#strikethrough
+     */
+    [strikethroughMarker, "~~"],
   ],
 };
 
